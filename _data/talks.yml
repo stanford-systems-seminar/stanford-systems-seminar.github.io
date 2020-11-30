@@ -1,5 +1,16 @@
 - type: Upcoming Talks
   members:
+    - speaker: Gerry Wan
+      date: 12/03/20
+      title: "Passive Analysis for Large-Scale Internet Security Research"
+      abstract: "Security researchers depend on visibility into large volumes of network traffic in order to answer questions about security recommendations, new protocols, malware, and more. However, as traffic speeds increase to 100GbE and beyond, network data from large ISPs or enterprise networks is becoming more difficult to obtain and analyze. Historically, traffic analysis has been restricted to small networks due to the performance limitations of current tools. However, recent advances in x86 servers, NICs, and fast packet I/O libraries like DPDK and PF_RING show potential for performing passive analysis on high-speed traffic. I will present our work in progress on building a framework for high-speed passive analysis on a single server. Our goal is to allow users to subscribe to subsets of reassembled application-layer data (e.g., all TLS handshakes to Netflix), and automate many of the mechanical aspects of collecting network data, including implementing filters, reconstructing TCP streams at high speeds, and load balancing packet processing across cores."
+    - speaker: Ymir Vigfusson
+      date: 12/10/20
+      title: "TBA"
+      abstract: "TBA"
+      website: https://ymsir.com/index.html
+- type: Past Talks
+  members:
     - speaker: Colleen Josephson
       date: 11/19/20
       title: " Enhancing Radar-based Sensing with RF Backscatter Tags"
@@ -9,17 +20,6 @@ tags with commodity UWB radar to cooperatively detect and identify objects in re
 environments without line-of-sight, the return amplitude of our backscatter tags can be 100-10,000x larger than the strongest noise signal. I will also present two example applications we implemented to demonstrate the potential of our system: soil moisture
 sensing and respiration monitoring."
       website: https://cjosephson.net/
-    - speaker: Gerry Wan
-      date: 12/03/20
-      title: "TBA"
-      abstract: "TBA"
-    - speaker: Ymir Vigfusson
-      date: 12/10/20
-      title: "TBA"
-      abstract: "TBA"
-      website: https://ymsir.com/index.html
-- type: Past Talks
-  members:
     - speaker: Deepak Narayanan
       date: 11/12/20
       title: "Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads"
