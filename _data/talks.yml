@@ -1,16 +1,17 @@
 - type: Upcoming Talks
   members:
+    - speaker: Ymir Vigfusson
+      date: 12/10/20
+      title: "Serving DNNs like Clockwork: Performance Predictability from the Bottom Up"
+      abstract: "Machine learning inference is becoming a core building block for interactive web applications. As a result, the underlying model serving systems on which these applications depend must consistently meet low latency targets. Existing model serving architectures use well-known reactive techniques to alleviate common-case sources of latency, but cannot effectively curtail tail latency caused by unpredictable execution times. Yet the underlying execution times are not fundamentally unpredictable --- on the contrary we observe that inference using Deep Neural Network (DNN) models has deterministic performance. In this talk, starting with the predictable execution times of individual DNN inferences, I will show how we adopt a principled design methodology to successively build a fully distributed model serving system that achieves predictable end-to-end performance. I will discuss the evaluation of our implementation, Clockwork, using production trace workloads, and show that Clockwork can support thousands of models while simultaneously meeting 100 ms latency targets for 99.997% of requests. Finally, I will demonstrate that Clockwork exploits predictable execution times to achieve tight request-level service-level objectives (SLOs) as well as a high degree of request-level performance isolation. Clockwork is a collaboration between researchers at Emory University and MPI-SWS, and is available online at https://gitlab.mpi-sws.org/cld/ml/clockwork."
+      biography: "Ymir Vigfusson is Assistant Professor of Computer Science at Emory University, co-PI of the Emory SimBioSys lab, a CDC Guest Researcher, and co-founder and Chief Science Officer of the cybersecurity companies Syndis and Adversary (acquired by Secure Code Warrior in 2020). His research focuses on the scalability of distributed systems, where caching systems hold a special place in his heart, as well as network science, computational epidemiology (influenza and malaria), and cybersecurity education. He holds a PhD in Computer Science from Cornell University and was on faculty at Reykjavik University in Iceland before joining Emory in 2014. Ymir is a former hacker, an NSF CAREER awardee, a father of four (please send help), a pianist and a private pilot, (I beg you), and that blasted Reviewer #3."
+      website: https://ymsir.com/index.html
+- type: Past Talks
+  members:
     - speaker: Gerry Wan
       date: 12/03/20
       title: "Passive Analysis for Large-Scale Internet Security Research"
       abstract: "Security researchers depend on visibility into large volumes of network traffic in order to answer questions about security recommendations, new protocols, malware, and more. However, as traffic speeds increase to 100GbE and beyond, network data from large ISPs or enterprise networks is becoming more difficult to obtain and analyze. Historically, traffic analysis has been restricted to small networks due to the performance limitations of current tools. However, recent advances in x86 servers, NICs, and fast packet I/O libraries like DPDK and PF_RING show potential for performing passive analysis on high-speed traffic. I will present our work in progress on building a framework for high-speed passive analysis on a single server. Our goal is to allow users to subscribe to subsets of reassembled application-layer data (e.g., all TLS handshakes to Netflix), and automate many of the mechanical aspects of collecting network data, including implementing filters, reconstructing TCP streams at high speeds, and load balancing packet processing across cores."
-    - speaker: Ymir Vigfusson
-      date: 12/10/20
-      title: "TBA"
-      abstract: "TBA"
-      website: https://ymsir.com/index.html
-- type: Past Talks
-  members:
     - speaker: Colleen Josephson
       date: 11/19/20
       title: " Enhancing Radar-based Sensing with RF Backscatter Tags"
