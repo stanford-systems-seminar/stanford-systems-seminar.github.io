@@ -27,6 +27,12 @@ to our mailing list (Stanford affiliates only).  Please also reach out to us if 
     {{ talk.abstract }}
     </details>
   {% endif %}
+  {% if talk.biography %}
+    <details>
+    <summary>Bio</summary>
+    {{ talk.biography }}
+    </details>
+  {% endif %}
   {% if talk.recording %}
     <a href="{{ talk.recording }}">Recording</a>
   {% endif %}
