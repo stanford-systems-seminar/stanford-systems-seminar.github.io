@@ -1,13 +1,37 @@
 - type: Upcoming Talks
   members:
+    - speaker: Daniel Kang
+      date: 01/14/2020
+      title: "Efficient and Reliable Query Processing using Machine Learning"
+      abstract: "Machine learning (ML) can now be used to answer a range of queries over unstructured data (e.g., videos, text) by extracting structured information over this data (e.g., object types and positions in videos). Unfortunately, these ML methods can be prohibitively expensive to deploy for many organizations. In this talk, I'll first describe algorithms to accelerate ML-based queries using approximations to expensive ML methods. I'll describe algorithms to accelerate selection, aggregation, and limit queries so that query results have statistical guarantees on accuracy, despite using approximations. These algorithms can accelerate queries by orders of magnitude compared to recent work. I'll then describe how to use new programming abstractions to find errors in ML models and in human-generated labels. These abstractions, model assertions and learned observation assertions, can find errors in mission-critical datasets and can be used to improved ML model performance by up to 2x. Time permitting, I'll discuss ongoing collaborations with the Toyota Research Institute and Stanford ecologists on deploying my research."
+      website: https://ddkang.github.io/
+    - speaker: Deepak Narayanan
+      date: 01/21/2020
+      title: "TBA"
+      website: https://cs.stanford.edu/~deepakn/
+    - speaker: Kexin Rong
+      date: 01/28/2020
+      title: "TBA"
+      website: https://kexinrong.github.io/
+    - speaker: Theo Jepsen
+      date: 02/04/2020
+      title: "Forwarding and Routing with Packet Subscriptions"
+      website: http://web.stanford.edu/~jepsen/index.html
+    - speaker: Sadjad Fouladi
+      date: 02/11/2020
+      title: "TBA"
+      website: https://sadjad.org/
+    - speaker: Yilong Li
+      date: 02/25/2020
+      title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
+- type: Past Talks
+  members:
     - speaker: Ymir Vigfusson
       date: 12/10/20
       title: "Serving DNNs like Clockwork: Performance Predictability from the Bottom Up"
       abstract: "Machine learning inference is becoming a core building block for interactive web applications. As a result, the underlying model serving systems on which these applications depend must consistently meet low latency targets. Existing model serving architectures use well-known reactive techniques to alleviate common-case sources of latency, but cannot effectively curtail tail latency caused by unpredictable execution times. Yet the underlying execution times are not fundamentally unpredictable --- on the contrary we observe that inference using Deep Neural Network (DNN) models has deterministic performance. In this talk, starting with the predictable execution times of individual DNN inferences, I will show how we adopt a principled design methodology to successively build a fully distributed model serving system that achieves predictable end-to-end performance. I will discuss the evaluation of our implementation, Clockwork, using production trace workloads, and show that Clockwork can support thousands of models while simultaneously meeting 100 ms latency targets for 99.997% of requests. Finally, I will demonstrate that Clockwork exploits predictable execution times to achieve tight request-level service-level objectives (SLOs) as well as a high degree of request-level performance isolation. Clockwork is a collaboration between researchers at Emory University and MPI-SWS, and is available online at https://gitlab.mpi-sws.org/cld/ml/clockwork."
       biography: "Ymir Vigfusson is Assistant Professor of Computer Science at Emory University, co-PI of the Emory SimBioSys lab, a CDC Guest Researcher, and co-founder and Chief Science Officer of the cybersecurity companies Syndis and Adversary (acquired by Secure Code Warrior in 2020). His research focuses on the scalability of distributed systems, where caching systems hold a special place in his heart, as well as network science, computational epidemiology (influenza and malaria), and cybersecurity education. He holds a PhD in Computer Science from Cornell University and was on faculty at Reykjavik University in Iceland before joining Emory in 2014. Ymir is a former hacker, an NSF CAREER awardee, a father of four (please send help), a pianist and a private pilot, (I beg you), and that blasted Reviewer #3."
       website: https://ymsir.com/index.html
-- type: Past Talks
-  members:
     - speaker: Gerry Wan
       date: 12/03/20
       title: "Passive Analysis for Large-Scale Internet Security Research"
