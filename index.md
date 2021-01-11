@@ -1,10 +1,10 @@
 ---
 layout: default
-meta-description: "Stanford Systems Seminar--Held Thursdays at 2 PM PST."
+meta-description: "Stanford Systems Seminar--Held Thursdays at 11 AM PST."
 ---
 
 The **Stanford Systems Seminar** is an opportunity for Stanford students doing systems research to present their work to a larger audience and to invite guest speakers.
-Seminars are held virtually on Thursdays at 2 PM PST.
+Seminars are held virtually on Thursdays at 11 AM PST.
 The seminar is organized by [Deepti Raghavan](https://deeptir.me) and [Peter Kraft](http://petereliaskraft.net).
 To receive regular updates on upcoming talks, as well as Zoom links to join them, please reach out to one of us so we can add you
 to our mailing list (Stanford affiliates only).  Please also reach out to us if you are interested in presenting next quarter.
