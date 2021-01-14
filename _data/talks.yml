@@ -1,44 +1,45 @@
 - type: Upcoming Talks
   members:
-    - speaker: Daniel Kang
-      date: 01/14/2020
-      title: "Efficient and Reliable Query Processing using Machine Learning"
-      abstract: "Machine learning (ML) can now be used to answer a range of queries over unstructured data (e.g., videos, text) by extracting structured information over this data (e.g., object types and positions in videos). Unfortunately, these ML methods can be prohibitively expensive to deploy for many organizations. In this talk, I'll first describe algorithms to accelerate ML-based queries using approximations to expensive ML methods. I'll describe algorithms to accelerate selection, aggregation, and limit queries so that query results have statistical guarantees on accuracy, despite using approximations. These algorithms can accelerate queries by orders of magnitude compared to recent work. I'll then describe how to use new programming abstractions to find errors in ML models and in human-generated labels. These abstractions, model assertions and learned observation assertions, can find errors in mission-critical datasets and can be used to improved ML model performance by up to 2x. Time permitting, I'll discuss ongoing collaborations with the Toyota Research Institute and Stanford ecologists on deploying my research."
-      website: https://ddkang.github.io/
     - speaker: Deepak Narayanan
-      date: 01/21/2020
+      date: 01/21/2021
       title: "Resource-Efficient Execution for Deep Learning"
       abstract: "Deep Learning models have enabled state-of-the-art results across a broad range of applications; however, training these models is extremely time- and resource-intensive, taking weeks on clusters with thousands of expensive accelerators in the extreme case. In this talk, I will describe two systems that improve the resource efficiency of model training. The first system, PipeDream, proposes a new primitive called pipeline parallelism to accelerate distributed training. Pipeline parallelism facilitates model training with lower communication overhead than previous methods while still ensuring high compute resource utilization. Pipeline parallelism also enables the efficient training of large models that do not fit on a single worker. Pipeline parallelism is being used at Facebook, Microsoft, OpenAI, and Nvidia for efficient large-scale model training. The second system, Gavel, determines how resources in a shared cluster with heterogeneous compute resources (e.g., different types of hardware accelerators) should be partitioned among different users to optimize objectives specified over multiple training jobs. Gavel can improve various scheduling objectives, such as average completion time, makespan, or cloud computing resource cost, by up to 3.5x. I will conclude the talk with discussion on future directions for optimizing Machine Learning systems."
       website: https://cs.stanford.edu/~deepakn/
     - speaker: Kexin Rong
-      date: 01/28/2020
-      title: "TBA"
+      date: 01/28/2021
+      title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
+      abstract: "Data volumes are growing exponentially, fueled by an increased number of automated processes such as sensors and devices. Meanwhile, the computational power available for processing this data – as well as analysts’ ability to interpret it – remain limited. As a result, database systems must evolve to address these new bottlenecks in analytics. In my work, I ask: how can we adapt classic ideas from database query processing to modern compute- and attention-limited data analytics?  In this talk, I will discuss the potential for this kind of systems development through the lens of several practical systems I have developed. By drawing insights from database query optimization, such as pushing workload- and domain-specific filtering, aggregation, and sampling into core analytics workflows, we can dramatically improve the efficiency of analytics at scale. I will illustrate these ideas by focusing on two systems — one designed for high-volume seismic waveform analysis and one designed to optimize visualizations for streaming infrastructure and application telemetry — both of which have been field-tested at scale. I will also discuss lessons from production deployments at companies including Datadog, Microsoft, Google and Facebook."
       website: https://kexinrong.github.io/
     - speaker: Theo Jepsen
-      date: 02/04/2020
+      date: 02/04/2021
       title: "Forwarding and Routing with Packet Subscriptions"
       website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Sadjad Fouladi
-      date: 02/11/2020
+      date: 02/11/2021
       title: "TBA"
       website: https://sadjad.org/
     - speaker: Yilong Li
-      date: 02/25/2020
+      date: 02/25/2021
       title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
 - type: Past Talks
   members:
+    - speaker: Daniel Kang
+      date: 01/14/2021
+      title: "Efficient and Reliable Query Processing using Machine Learning"
+      abstract: "Machine learning (ML) can now be used to answer a range of queries over unstructured data (e.g., videos, text) by extracting structured information over this data (e.g., object types and positions in videos). Unfortunately, these ML methods can be prohibitively expensive to deploy for many organizations. In this talk, I'll first describe algorithms to accelerate ML-based queries using approximations to expensive ML methods. I'll describe algorithms to accelerate selection, aggregation, and limit queries so that query results have statistical guarantees on accuracy, despite using approximations. These algorithms can accelerate queries by orders of magnitude compared to recent work. I'll then describe how to use new programming abstractions to find errors in ML models and in human-generated labels. These abstractions, model assertions and learned observation assertions, can find errors in mission-critical datasets and can be used to improved ML model performance by up to 2x. Time permitting, I'll discuss ongoing collaborations with the Toyota Research Institute and Stanford ecologists on deploying my research."
+      website: https://ddkang.github.io/
     - speaker: Ymir Vigfusson
-      date: 12/10/20
+      date: 12/10/2020
       title: "Serving DNNs like Clockwork: Performance Predictability from the Bottom Up"
       abstract: "Machine learning inference is becoming a core building block for interactive web applications. As a result, the underlying model serving systems on which these applications depend must consistently meet low latency targets. Existing model serving architectures use well-known reactive techniques to alleviate common-case sources of latency, but cannot effectively curtail tail latency caused by unpredictable execution times. Yet the underlying execution times are not fundamentally unpredictable --- on the contrary we observe that inference using Deep Neural Network (DNN) models has deterministic performance. In this talk, starting with the predictable execution times of individual DNN inferences, I will show how we adopt a principled design methodology to successively build a fully distributed model serving system that achieves predictable end-to-end performance. I will discuss the evaluation of our implementation, Clockwork, using production trace workloads, and show that Clockwork can support thousands of models while simultaneously meeting 100 ms latency targets for 99.997% of requests. Finally, I will demonstrate that Clockwork exploits predictable execution times to achieve tight request-level service-level objectives (SLOs) as well as a high degree of request-level performance isolation. Clockwork is a collaboration between researchers at Emory University and MPI-SWS, and is available online at https://gitlab.mpi-sws.org/cld/ml/clockwork."
       biography: "Ymir Vigfusson is Assistant Professor of Computer Science at Emory University, co-PI of the Emory SimBioSys lab, a CDC Guest Researcher, and co-founder and Chief Science Officer of the cybersecurity companies Syndis and Adversary (acquired by Secure Code Warrior in 2020). His research focuses on the scalability of distributed systems, where caching systems hold a special place in his heart, as well as network science, computational epidemiology (influenza and malaria), and cybersecurity education. He holds a PhD in Computer Science from Cornell University and was on faculty at Reykjavik University in Iceland before joining Emory in 2014. Ymir is a former hacker, an NSF CAREER awardee, a father of four (please send help), a pianist and a private pilot, (I beg you), and that blasted Reviewer #3."
       website: https://ymsir.com/index.html
     - speaker: Gerry Wan
-      date: 12/03/20
+      date: 12/03/2020
       title: "Passive Analysis for Large-Scale Internet Security Research"
       abstract: "Security researchers depend on visibility into large volumes of network traffic in order to answer questions about security recommendations, new protocols, malware, and more. However, as traffic speeds increase to 100GbE and beyond, network data from large ISPs or enterprise networks is becoming more difficult to obtain and analyze. Historically, traffic analysis has been restricted to small networks due to the performance limitations of current tools. However, recent advances in x86 servers, NICs, and fast packet I/O libraries like DPDK and PF_RING show potential for performing passive analysis on high-speed traffic. I will present our work in progress on building a framework for high-speed passive analysis on a single server. Our goal is to allow users to subscribe to subsets of reassembled application-layer data (e.g., all TLS handshakes to Netflix), and automate many of the mechanical aspects of collecting network data, including implementing filters, reconstructing TCP streams at high speeds, and load balancing packet processing across cores."
     - speaker: Colleen Josephson
-      date: 11/19/20
+      date: 11/19/2020
       title: " Enhancing Radar-based Sensing with RF Backscatter Tags"
       abstract: "We
 need affordable and innovative sensing to assist in tackling global-scale problems. Radars have become a common tool in sensing applications. However, target detection and identification remain challenges. This talk presents our system that combines RF backscatter
@@ -47,7 +48,7 @@ environments without line-of-sight, the return amplitude of our backscatter tags
 sensing and respiration monitoring."
       website: https://cjosephson.net/
     - speaker: Deepak Narayanan
-      date: 11/12/20
+      date: 11/12/2020
       title: "Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads"
       abstract: " Specialized accelerators such as GPUs, TPUs, FPGAs, and custom ASICs have been increasingly deployed to train deep learning models. These accelerators exhibit heterogeneous performance behavior across model architectures. Existing schedulers for clusters of accelerators, which are used to arbitrate these expensive training resources across many users, have shown how to optimize for various multi-job, multi-user objectives, like fairness and makespan. Unfortunately, existing schedulers largely do not consider performance heterogeneity. In this paper, we propose Gavel, a heterogeneity-aware scheduler that systematically generalizes a wide range of existing scheduling policies. Gavel expresses these policies as optimization problems and then systematically transforms these problems into heterogeneity-aware versions using an abstraction we call effective throughput. Gavel then uses a round-based scheduling mechanism to ensure jobs receive their ideal allocation given the target scheduling policy. Gavel's heterogeneity-aware policies allow a heterogeneous cluster to sustain higher input load, and improve end objectives such as makespan and average job completion time by 1.4x and 3.5x compared to heterogeneity-agnostic policies."
       website: https://cs.stanford.edu/~deepakn/
