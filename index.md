@@ -43,3 +43,5 @@ to our mailing list (Stanford affiliates only).  Please also reach out to us if 
   {% endfor %}
 </div>
 {% endfor %}
+
+Credit to [Dan Fu](http://www.danfu.org/) for the site theme!

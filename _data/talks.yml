@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Deepak Narayanan
-      date: 01/21/2021
-      title: "Resource-Efficient Execution for Deep Learning"
-      abstract: "Deep Learning models have enabled state-of-the-art results across a broad range of applications; however, training these models is extremely time- and resource-intensive, taking weeks on clusters with thousands of expensive accelerators in the extreme case. In this talk, I will describe two systems that improve the resource efficiency of model training. The first system, PipeDream, proposes a new primitive called pipeline parallelism to accelerate distributed training. Pipeline parallelism facilitates model training with lower communication overhead than previous methods while still ensuring high compute resource utilization. Pipeline parallelism also enables the efficient training of large models that do not fit on a single worker. Pipeline parallelism is being used at Facebook, Microsoft, OpenAI, and Nvidia for efficient large-scale model training. The second system, Gavel, determines how resources in a shared cluster with heterogeneous compute resources (e.g., different types of hardware accelerators) should be partitioned among different users to optimize objectives specified over multiple training jobs. Gavel can improve various scheduling objectives, such as average completion time, makespan, or cloud computing resource cost, by up to 3.5x. I will conclude the talk with discussion on future directions for optimizing Machine Learning systems."
-      website: https://cs.stanford.edu/~deepakn/
     - speaker: Kexin Rong
       date: 01/28/2021
       title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
@@ -23,6 +18,11 @@
       title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
 - type: Past Talks
   members:
+    - speaker: Deepak Narayanan
+      date: 01/21/2021
+      title: "Resource-Efficient Execution for Deep Learning"
+      abstract: "Deep Learning models have enabled state-of-the-art results across a broad range of applications; however, training these models is extremely time- and resource-intensive, taking weeks on clusters with thousands of expensive accelerators in the extreme case. In this talk, I will describe two systems that improve the resource efficiency of model training. The first system, PipeDream, proposes a new primitive called pipeline parallelism to accelerate distributed training. Pipeline parallelism facilitates model training with lower communication overhead than previous methods while still ensuring high compute resource utilization. Pipeline parallelism also enables the efficient training of large models that do not fit on a single worker. Pipeline parallelism is being used at Facebook, Microsoft, OpenAI, and Nvidia for efficient large-scale model training. The second system, Gavel, determines how resources in a shared cluster with heterogeneous compute resources (e.g., different types of hardware accelerators) should be partitioned among different users to optimize objectives specified over multiple training jobs. Gavel can improve various scheduling objectives, such as average completion time, makespan, or cloud computing resource cost, by up to 3.5x. I will conclude the talk with discussion on future directions for optimizing Machine Learning systems."
+      website: https://cs.stanford.edu/~deepakn/
     - speaker: Daniel Kang
       date: 01/14/2021
       title: "Efficient and Reliable Query Processing using Machine Learning"
