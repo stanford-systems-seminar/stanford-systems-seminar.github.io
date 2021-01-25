@@ -8,14 +8,27 @@
     - speaker: Theo Jepsen
       date: 02/04/2021
       title: "Forwarding and Routing with Packet Subscriptions"
+      abstract: "In this work, we explore how programmable data planes can naturally provide a higher-level of service to user applications via a new abstraction called packet subscriptions. Packet subscriptions generalize forwarding rules, and can be used to express both traditional routing and more esoteric, content-based approaches. We present strategies for routing with packet subscriptions in which a centralized controller has a global view of the network, and the network topology is organized as a hierarchical structure. We also describe a compiler for packet subscriptions that uses a novel BDD-based algorithm to efficiently translate predicates into P4 tables that can support O(100K) expressions. Using our system, we have built three diverse applications.  We show that these applications can be deployed in brownfield networks while performing line-rate message processing, using the full switch bandwidth of 6.5Tbps."
       website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Sadjad Fouladi
       date: 02/11/2021
       title: "TBA"
       website: https://sadjad.org/
+    - speaker: Dan Ports
+      date: 02/18/2021
+      title: "TBA"      
+      website: https://drkp.net/
     - speaker: Yilong Li
       date: 02/25/2021
       title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
+    - speaker: Vijay Chidambaram
+      date: 03/04/2021
+      title: "TBA"      
+      website: http://www.cs.utexas.edu/~vijay/
+    - speaker: Jack Humphries
+      date: 03/11/2021
+      title: "ghOSt: Fast & Flexible User-Space Delegation of Linux Scheduling"      
+      abstract: "Recent work has established that better scheduling can drastically improve the throughput, tail latency, scalability, and security of important workloads. However, kernel schedulers are difficult to implement and cannot be updated without a full reboot. Researchers are bypassing the kernel complexity, including the challenge of communicating constraints around optimization targets that are often in conflict (e.g. latency versus power), by evaluating new scheduling policies within bespoke data plane operating systems. However, it is difficult to maintain and deploy a custom OS image for every impor- tant application, particularly in a shared environment. Hence, the practical benefits of new scheduling research have been limited.  We present ghOSt, a general-purpose delegation of schedul- ing policy implemented on top of the Linux kernel. ghOSt provides a rich API that receives scheduling decisions for kernel threads from user code and actuates them as transac- tions. Programmers can use any language or tools to develop policies, which can be upgraded without a reboot. We develop policies for μs-scale workloads and a production database to demonstrate that ghOSt supports a wide range of scheduling models (per-CPU to centralized, run-to-completion to preemp- tive) and incurs low overheads for scheduling actions. Many policies are just a few hundred lines of code. Overall, ghOSt provides a performant framework for delegation of thread scheduling policy to userspace processes that enables policy optimization, non-disruptive upgrades, and fault isolation."
 - type: Past Talks
   members:
     - speaker: Deepak Narayanan
