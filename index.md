@@ -44,4 +44,4 @@ to our mailing list (Stanford affiliates only).  Please also reach out to us if 
 </div>
 {% endfor %}
 
-Credit to [Dan Fu](http://www.danfu.org/) for the site theme!
+Credit to the [Stanford MLSys Seminar Series](https://mlsys.stanford.edu/) for the site theme!

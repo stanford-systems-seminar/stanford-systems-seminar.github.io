@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Kexin Rong
-      date: 01/28/2021
-      title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
-      abstract: "Data volumes are growing exponentially, fueled by an increased number of automated processes such as sensors and devices. Meanwhile, the computational power available for processing this data – as well as analysts’ ability to interpret it – remain limited. As a result, database systems must evolve to address these new bottlenecks in analytics. In my work, I ask: how can we adapt classic ideas from database query processing to modern compute- and attention-limited data analytics?  In this talk, I will discuss the potential for this kind of systems development through the lens of several practical systems I have developed. By drawing insights from database query optimization, such as pushing workload- and domain-specific filtering, aggregation, and sampling into core analytics workflows, we can dramatically improve the efficiency of analytics at scale. I will illustrate these ideas by focusing on two systems — one designed for high-volume seismic waveform analysis and one designed to optimize visualizations for streaming infrastructure and application telemetry — both of which have been field-tested at scale. I will also discuss lessons from production deployments at companies including Datadog, Microsoft, Google and Facebook."
-      website: https://kexinrong.github.io/
     - speaker: Theo Jepsen
       date: 02/04/2021
       title: "Forwarding and Routing with Packet Subscriptions"
@@ -12,7 +7,8 @@
       website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Sadjad Fouladi
       date: 02/11/2021
-      title: "TBA"
+      title: "R2E2: Low-Latency Path Tracing of Terabyte-Scale Geometry using Thousands of Cloud CPUs"
+      abstract: "Using modern cloud computing platforms, a consumer can rapidly acquire thousands of CPUs, featuring terabytes of aggregate memory and hundreds of gigabits of bandwidth to shared storage, on demand. This abundance of resources offers the promise of low-latency execution of expensive graphics jobs, such as path tracing. In this talk, I present R2E2, the first system architected to perform low latency path tracing of terabyte-scale scenes using serverless computing nodes in the cloud. R2E2 is a parallel renderer that leverages elastic cloud platforms (availability of many CPUs/memory in aggregate and massively parallel access to shared storage) and mitigates the cloud's limitations (low per-node memory capacity and high latency inter-node communication). R2E2 rapidly acquires thousands of cloud CPU cores, loads scene geometry from a pre-built scene BVH into the aggregate memory of these nodes in parallel, and performs full path traced global illumination using an inter-node messaging service designed for communicating ray data.  Scenes with up to a terabyte of geometry can be path traced at high resolution, in a few minutes, using thousands of tiny serverless nodes on the AWS Lambda platform."
       website: https://sadjad.org/
     - speaker: Dan Ports
       date: 02/18/2021
@@ -31,6 +27,11 @@
       abstract: "Recent work has established that better scheduling can drastically improve the throughput, tail latency, scalability, and security of important workloads. However, kernel schedulers are difficult to implement and cannot be updated without a full reboot. Researchers are bypassing the kernel complexity, including the challenge of communicating constraints around optimization targets that are often in conflict (e.g. latency versus power), by evaluating new scheduling policies within bespoke data plane operating systems. However, it is difficult to maintain and deploy a custom OS image for every impor- tant application, particularly in a shared environment. Hence, the practical benefits of new scheduling research have been limited.  We present ghOSt, a general-purpose delegation of schedul- ing policy implemented on top of the Linux kernel. ghOSt provides a rich API that receives scheduling decisions for kernel threads from user code and actuates them as transac- tions. Programmers can use any language or tools to develop policies, which can be upgraded without a reboot. We develop policies for μs-scale workloads and a production database to demonstrate that ghOSt supports a wide range of scheduling models (per-CPU to centralized, run-to-completion to preemp- tive) and incurs low overheads for scheduling actions. Many policies are just a few hundred lines of code. Overall, ghOSt provides a performant framework for delegation of thread scheduling policy to userspace processes that enables policy optimization, non-disruptive upgrades, and fault isolation."
 - type: Past Talks
   members:
+    - speaker: Kexin Rong
+      date: 01/28/2021
+      title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
+      abstract: "Data volumes are growing exponentially, fueled by an increased number of automated processes such as sensors and devices. Meanwhile, the computational power available for processing this data – as well as analysts’ ability to interpret it – remain limited. As a result, database systems must evolve to address these new bottlenecks in analytics. In my work, I ask: how can we adapt classic ideas from database query processing to modern compute- and attention-limited data analytics?  In this talk, I will discuss the potential for this kind of systems development through the lens of several practical systems I have developed. By drawing insights from database query optimization, such as pushing workload- and domain-specific filtering, aggregation, and sampling into core analytics workflows, we can dramatically improve the efficiency of analytics at scale. I will illustrate these ideas by focusing on two systems — one designed for high-volume seismic waveform analysis and one designed to optimize visualizations for streaming infrastructure and application telemetry — both of which have been field-tested at scale. I will also discuss lessons from production deployments at companies including Datadog, Microsoft, Google and Facebook."
+      website: https://kexinrong.github.io/
     - speaker: Deepak Narayanan
       date: 01/21/2021
       title: "Resource-Efficient Execution for Deep Learning"
