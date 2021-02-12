@@ -20,16 +20,16 @@
       biography: "Jack Humphries is a software engineer in the Google Cloud Systems Infrastructure group where he works on kernel scheduling for Google's data centers. He completed his Bachelor's degree in Computer Science at Stanford in 2019. He is currently a Master's student in Computer Science at Stanford, advised by Professors Christos Kozyrakis and David Mazières, and will start his Ph.D. in autumn 2021."
 - type: Past Talks
   members:
-    - speaker: Theo Jepsen
-      date: 02/04/2021
-      title: "Forwarding and Routing with Packet Subscriptions"
-      abstract: "In this work, we explore how programmable data planes can naturally provide a higher-level of service to user applications via a new abstraction called packet subscriptions. Packet subscriptions generalize forwarding rules, and can be used to express both traditional routing and more esoteric, content-based approaches. We present strategies for routing with packet subscriptions in which a centralized controller has a global view of the network, and the network topology is organized as a hierarchical structure. We also describe a compiler for packet subscriptions that uses a novel BDD-based algorithm to efficiently translate predicates into P4 tables that can support O(100K) expressions. Using our system, we have built three diverse applications.  We show that these applications can be deployed in brownfield networks while performing line-rate message processing, using the full switch bandwidth of 6.5Tbps."
-      website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Sadjad Fouladi
       date: 02/11/2021
       title: "R2E2: Low-Latency Path Tracing of Terabyte-Scale Geometry using Thousands of Cloud CPUs"
       abstract: "Using modern cloud computing platforms, a consumer can rapidly acquire thousands of CPUs, featuring terabytes of aggregate memory and hundreds of gigabits of bandwidth to shared storage, on demand. This abundance of resources offers the promise of low-latency execution of expensive graphics jobs, such as path tracing. In this talk, I present R2E2, the first system architected to perform low latency path tracing of terabyte-scale scenes using serverless computing nodes in the cloud. R2E2 is a parallel renderer that leverages elastic cloud platforms (availability of many CPUs/memory in aggregate and massively parallel access to shared storage) and mitigates the cloud's limitations (low per-node memory capacity and high latency inter-node communication). R2E2 rapidly acquires thousands of cloud CPU cores, loads scene geometry from a pre-built scene BVH into the aggregate memory of these nodes in parallel, and performs full path traced global illumination using an inter-node messaging service designed for communicating ray data.  Scenes with up to a terabyte of geometry can be path traced at high resolution, in a few minutes, using thousands of tiny serverless nodes on the AWS Lambda platform."
       website: https://sadjad.org/
+    - speaker: Theo Jepsen
+      date: 02/04/2021
+      title: "Forwarding and Routing with Packet Subscriptions"
+      abstract: "In this work, we explore how programmable data planes can naturally provide a higher-level of service to user applications via a new abstraction called packet subscriptions. Packet subscriptions generalize forwarding rules, and can be used to express both traditional routing and more esoteric, content-based approaches. We present strategies for routing with packet subscriptions in which a centralized controller has a global view of the network, and the network topology is organized as a hierarchical structure. We also describe a compiler for packet subscriptions that uses a novel BDD-based algorithm to efficiently translate predicates into P4 tables that can support O(100K) expressions. Using our system, we have built three diverse applications.  We show that these applications can be deployed in brownfield networks while performing line-rate message processing, using the full switch bandwidth of 6.5Tbps."
+      website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Kexin Rong
       date: 01/28/2021
       title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
