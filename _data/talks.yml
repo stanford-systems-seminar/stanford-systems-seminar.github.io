@@ -1,5 +1,25 @@
 - type: Upcoming Talks
   members:
+    - speaker: Dan Ports
+      date: 02/18/2021
+      title: "TBA"      
+      website: https://drkp.net/
+    - speaker: Yilong Li
+      date: 02/25/2021
+      title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
+    - speaker: Vijay Chidambaram
+      date: 03/04/2021
+      title: "Building Storage Systems for New Applications and New Hardware"
+      abstract: "The modern storage landscape is changing at an exciting rate. New technologies, such as Intel DC Persistent Memory, are being introduced. At the same time, new applications such as blockchain are emerging with new requirements from the storage subsystem. New regulations, such as the General Data Protection Regulation (GDPR), place new constraints on how data may be read and written. As a result, designing storage systems that satisfy these constraints is interesting and challenging. In this talk, I will describe the lessons we learnt from tackling this challenge in various forms: my group has built file systems and concurrent data structures for persistent memory, storage solutions for blockchains and machine learning, and analyzed how the GDPR regulation affects storage systems."
+      biography: "Vijay Chidambaram is an Assistant Professor in the Computer Science department at the University of Texas at Austin. He did his post-doc at the VMware Research Group, and got his PhD with Prof. Remzi and Andrea Arpaci-Dusseau at the University of Wisconsin-Madison. His papers have won Best Paper Awards in ATC 2018, FAST 2018, and FAST 2017. He was awarded the NSF CAREER Award in 2018, SIGOPS Dennis M. Ritchie Dissertation Award in 2016, and the Microsoft Research Fellowship in 2014. Techniques from his work have been incorporated into commercial products, and his work has helped make the Linux kernel more reliable."      
+      website: http://www.cs.utexas.edu/~vijay/
+    - speaker: Jack Humphries
+      date: 03/11/2021
+      title: "ghOSt: Fast & Flexible User-Space Delegation of Linux Scheduling"      
+      abstract: "Recent work has established that better scheduling can drastically improve the throughput, tail latency, scalability, and security of important workloads. However, kernel schedulers are difficult to implement and cannot be updated without a full reboot. Researchers are bypassing the kernel complexity, including the challenge of communicating constraints around optimization targets that are often in conflict (e.g. latency versus power), by evaluating new scheduling policies within bespoke data plane operating systems. However, it is difficult to maintain and deploy a custom OS image for every impor- tant application, particularly in a shared environment. Hence, the practical benefits of new scheduling research have been limited.  We present ghOSt, a general-purpose delegation of schedul- ing policy implemented on top of the Linux kernel. ghOSt provides a rich API that receives scheduling decisions for kernel threads from user code and actuates them as transac- tions. Programmers can use any language or tools to develop policies, which can be upgraded without a reboot. We develop policies for μs-scale workloads and a production database to demonstrate that ghOSt supports a wide range of scheduling models (per-CPU to centralized, run-to-completion to preemp- tive) and incurs low overheads for scheduling actions. Many policies are just a few hundred lines of code. Overall, ghOSt provides a performant framework for delegation of thread scheduling policy to userspace processes that enables policy optimization, non-disruptive upgrades, and fault isolation."
+      biography: "Jack Humphries is a software engineer in the Google Cloud Systems Infrastructure group where he works on kernel scheduling for Google's data centers. He completed his Bachelor's degree in Computer Science at Stanford in 2019. He is currently a Master's student in Computer Science at Stanford, advised by Professors Christos Kozyrakis and David Mazières, and will start his Ph.D. in autumn 2021."
+- type: Past Talks
+  members:
     - speaker: Theo Jepsen
       date: 02/04/2021
       title: "Forwarding and Routing with Packet Subscriptions"
@@ -10,23 +30,6 @@
       title: "R2E2: Low-Latency Path Tracing of Terabyte-Scale Geometry using Thousands of Cloud CPUs"
       abstract: "Using modern cloud computing platforms, a consumer can rapidly acquire thousands of CPUs, featuring terabytes of aggregate memory and hundreds of gigabits of bandwidth to shared storage, on demand. This abundance of resources offers the promise of low-latency execution of expensive graphics jobs, such as path tracing. In this talk, I present R2E2, the first system architected to perform low latency path tracing of terabyte-scale scenes using serverless computing nodes in the cloud. R2E2 is a parallel renderer that leverages elastic cloud platforms (availability of many CPUs/memory in aggregate and massively parallel access to shared storage) and mitigates the cloud's limitations (low per-node memory capacity and high latency inter-node communication). R2E2 rapidly acquires thousands of cloud CPU cores, loads scene geometry from a pre-built scene BVH into the aggregate memory of these nodes in parallel, and performs full path traced global illumination using an inter-node messaging service designed for communicating ray data.  Scenes with up to a terabyte of geometry can be path traced at high resolution, in a few minutes, using thousands of tiny serverless nodes on the AWS Lambda platform."
       website: https://sadjad.org/
-    - speaker: Dan Ports
-      date: 02/18/2021
-      title: "TBA"      
-      website: https://drkp.net/
-    - speaker: Yilong Li
-      date: 02/25/2021
-      title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
-    - speaker: Vijay Chidambaram
-      date: 03/04/2021
-      title: "TBA"      
-      website: http://www.cs.utexas.edu/~vijay/
-    - speaker: Jack Humphries
-      date: 03/11/2021
-      title: "ghOSt: Fast & Flexible User-Space Delegation of Linux Scheduling"      
-      abstract: "Recent work has established that better scheduling can drastically improve the throughput, tail latency, scalability, and security of important workloads. However, kernel schedulers are difficult to implement and cannot be updated without a full reboot. Researchers are bypassing the kernel complexity, including the challenge of communicating constraints around optimization targets that are often in conflict (e.g. latency versus power), by evaluating new scheduling policies within bespoke data plane operating systems. However, it is difficult to maintain and deploy a custom OS image for every impor- tant application, particularly in a shared environment. Hence, the practical benefits of new scheduling research have been limited.  We present ghOSt, a general-purpose delegation of schedul- ing policy implemented on top of the Linux kernel. ghOSt provides a rich API that receives scheduling decisions for kernel threads from user code and actuates them as transac- tions. Programmers can use any language or tools to develop policies, which can be upgraded without a reboot. We develop policies for μs-scale workloads and a production database to demonstrate that ghOSt supports a wide range of scheduling models (per-CPU to centralized, run-to-completion to preemp- tive) and incurs low overheads for scheduling actions. Many policies are just a few hundred lines of code. Overall, ghOSt provides a performant framework for delegation of thread scheduling policy to userspace processes that enables policy optimization, non-disruptive upgrades, and fault isolation."
-- type: Past Talks
-  members:
     - speaker: Kexin Rong
       date: 01/28/2021
       title: "Prioritizing Computation and User Attention in Large-scale Data Analytics"
