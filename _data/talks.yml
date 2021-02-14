@@ -2,7 +2,39 @@
   members:
     - speaker: Dan Ports
       date: 02/18/2021
-      title: "TBA"      
+      title: "Accelerating Distributed Systems with In-Network Computation"
+      biography: "Dan Ports is a Principal Researcher at Microsoft Research and
+Affiliate Assistant Professor in Computer Science and Engineering at
+the University of Washington. Dan’s background is in distributed
+systems research, and more recently he has been focused on how to use
+new datacenter technologies like programmable networks to build better
+distributed systems. He leads the Prometheus project at MSR, which
+uses this co-design approach to build practical high-performance
+distributed systems. Dan received a Ph.D. from MIT (2012). His
+research has been recognized with best paper awards at NSDI and OSDI."
+      abstract: "Distributed protocols make it possible to build scalable and reliable
+      systems, but come at a performance cost. Recent advances in
+      accelerators have yielded major improvements in single-node
+      performance, increasingly leaving distributed communication as a
+      bottleneck. In this talk, I’ll argue that in-network computation can
+      serve as the missing accelerator for distributed systems. Enabled by
+      new programmable switches and NICs that can place small amounts of
+      computation directly in the network fabric, we can speed up common
+      communication patterns for distributed systems, and reach new levels
+      of performance.
+      I’ll describe three systems that use in-network acceleration to speed
+      up classic communication and coordination challenges. First, I’ll show
+      how to speed up state machine replication using a network sequencing
+      primitive. The ordering guarantees it provides allow us to design a
+      new consensus protocol, Network-Ordered Paxos, with extremely low
+      performance overhead. Second, I’ll show that even a traditionally
+      compute-bound workload -- ML training -- can now be network-bound. Our
+      new system, SwitchML, alleviates this bottleneck by accelerating a
+      common communication pattern using a programmable switch. Finally,
+      I’ll show that using in-network computation to manage the migration
+      and replication of data, in a system called Pegasus, allows us to
+      load-balance a key-value store to achieve high utilization and
+      predictable performance in the face of skewed workloads."
       website: https://drkp.net/
     - speaker: Yilong Li
       date: 02/25/2021
@@ -52,6 +84,7 @@
       biography: "Ymir Vigfusson is Assistant Professor of Computer Science at Emory University, co-PI of the Emory SimBioSys lab, a CDC Guest Researcher, and co-founder and Chief Science Officer of the cybersecurity companies Syndis and Adversary (acquired by Secure Code Warrior in 2020). His research focuses on the scalability of distributed systems, where caching systems hold a special place in his heart, as well as network science, computational epidemiology (influenza and malaria), and cybersecurity education. He holds a PhD in Computer Science from Cornell University and was on faculty at Reykjavik University in Iceland before joining Emory in 2014. Ymir is a former hacker, an NSF CAREER awardee, a father of four (please send help), a pianist and a private pilot, (I beg you), and that blasted Reviewer #3."
       website: https://ymsir.com/index.html
     - speaker: Gerry Wan
+      website: https://thegwan.github.io/
       date: 12/03/2020
       title: "Passive Analysis for Large-Scale Internet Security Research"
       abstract: "Security researchers depend on visibility into large volumes of network traffic in order to answer questions about security recommendations, new protocols, malware, and more. However, as traffic speeds increase to 100GbE and beyond, network data from large ISPs or enterprise networks is becoming more difficult to obtain and analyze. Historically, traffic analysis has been restricted to small networks due to the performance limitations of current tools. However, recent advances in x86 servers, NICs, and fast packet I/O libraries like DPDK and PF_RING show potential for performing passive analysis on high-speed traffic. I will present our work in progress on building a framework for high-speed passive analysis on a single server. Our goal is to allow users to subscribe to subsets of reassembled application-layer data (e.g., all TLS handshakes to Netflix), and automate many of the mechanical aspects of collecting network data, including implementing filters, reconstructing TCP streams at high speeds, and load balancing packet processing across cores."
