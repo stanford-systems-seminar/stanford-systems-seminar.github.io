@@ -1,5 +1,7 @@
 - type: Upcoming Talks
   members:
+- type: Past Talks
+  members:
     - speaker: Vijay Chidambaram
       date: 03/04/2021
       title: "Building Storage Systems for New Applications and New Hardware"
@@ -11,8 +13,6 @@
       title: "ghOSt: Fast & Flexible User-Space Delegation of Linux Scheduling"      
       abstract: "Recent work has established that better scheduling can drastically improve the throughput, tail latency, scalability, and security of important workloads. However, kernel schedulers are difficult to implement and cannot be updated without a full reboot. Researchers are bypassing the kernel complexity, including the challenge of communicating constraints around optimization targets that are often in conflict (e.g. latency versus power), by evaluating new scheduling policies within bespoke data plane operating systems. However, it is difficult to maintain and deploy a custom OS image for every impor- tant application, particularly in a shared environment. Hence, the practical benefits of new scheduling research have been limited.  We present ghOSt, a general-purpose delegation of schedul- ing policy implemented on top of the Linux kernel. ghOSt provides a rich API that receives scheduling decisions for kernel threads from user code and actuates them as transac- tions. Programmers can use any language or tools to develop policies, which can be upgraded without a reboot. We develop policies for μs-scale workloads and a production database to demonstrate that ghOSt supports a wide range of scheduling models (per-CPU to centralized, run-to-completion to preemp- tive) and incurs low overheads for scheduling actions. Many policies are just a few hundred lines of code. Overall, ghOSt provides a performant framework for delegation of thread scheduling policy to userspace processes that enables policy optimization, non-disruptive upgrades, and fault isolation."
       biography: "Jack Humphries is a software engineer in the Google Cloud Systems Infrastructure group where he works on kernel scheduling for Google's data centers. He completed his Bachelor's degree in Computer Science at Stanford in 2019. He is currently a Master's student in Computer Science at Stanford, advised by Professors Christos Kozyrakis and David Mazières, and will start his Ph.D. in autumn 2021."
-- type: Past Talks
-  members:
     - speaker: Yilong Li
       date: 02/25/2021
       title: "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds"
