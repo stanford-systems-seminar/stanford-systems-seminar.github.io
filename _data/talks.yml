@@ -1,5 +1,10 @@
 - type: Upcoming Talks
   members:
+    - speaker: Luke Hsiao
+      date: 03/25/2021
+      title: "Creating Hardware Component Knowledge Bases from PDF Datasheets"      
+      abstract: I present a machine-learning-based approach for creating hardware component knowledge bases directly from the PDF datasheets that manufacturers publish for those components. This approach reduces the amount of costly human input required to create new hardware component knowledge bases.  First, I show Fonduer, a novel knowledge base construction system for richly formatted data like PDF datasheets. Fonduer provides a data model that serves as a necessary building block that enables automated information extraction from datasheets. Second, I explain how Fonduer can be used to build hardware component knowledge bases in practice. The multimodal information captured by Fonduer provides signals for training data generation as well as for augmenting deep learning models for multi-task learning. Finally, I demonstrate the utility of this approach with end-to-end applications and empirical results from real-world use cases.  I implement this approach with a dataset of over 15,000 datasheets of three types of components. When extracting multiple electrical characteristics, this implementation achieves an average quality of 77 F1 points—quality that improves on existing human-curated knowledge bases by 12 F1 points. In one case where existing knowledge bases are scarce (product thumbnails of circular connectors) this implementation improves on the F1 score by 12x.
+      website: https://luke.hsiao.dev/
 - type: Past Talks
   members:
     - speaker: Jack Humphries
