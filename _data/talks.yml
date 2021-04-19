@@ -1,9 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Francisco Romero and Mark Zhao
-      date: 04/15/2021
-      title: "Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines"      
-      abstract:  The proliferation of camera-enabled devices and large video repositories has given rise to a diverse set of video analytics applications. The video pipelines for these applications are DAGs of operations that transform videos, process extracted metadata, and answer questions such as, "Is this intersection congested?" The latency and resource efficiency of pipelines can be optimized using configurable knobs for each operation such as the sampling rate, batch size, or type of hardware used. However, determining efficient configurations is challenging because (a) the configuration search space is exponentially large, and (b) the optimal configuration depends on the desired latency target and the input video contents that may exercise different paths in the DAG and produce different volumes of intermediate results. Existing video analytics and processing systems leave it to the users to manually configure operations and select hardware resources. Hence, we observe that they often execute inefficiently and fail to meet latency and cost targets. In this talk, we present Llama, a heterogeneous and serverless framework for auto-tuning video pipelines. Llama optimizes the overall video pipeline latency by (a) dynamically calculating latency targets per-operation invocation, and (b) dynamically running a cost-based optimizer to determine efficient configurations that meet the target latency for each invocation. We show that Llama achieves reduced latency and cost compared to state-of-the-art cluster and serverless video analytics and processing systems.
     - speaker: Naama Ben-David
       date: 04/22/2021
       title: "Microsecond Consensus for Microsecond Applications"
@@ -11,6 +7,10 @@
       website: https://sites.google.com/view/naama-ben-david/home
 - type: Past Talks
   members:
+    - speaker: Francisco Romero and Mark Zhao
+      date: 04/15/2021
+      title: "Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines"      
+      abstract:  The proliferation of camera-enabled devices and large video repositories has given rise to a diverse set of video analytics applications. The video pipelines for these applications are DAGs of operations that transform videos, process extracted metadata, and answer questions such as, "Is this intersection congested?" The latency and resource efficiency of pipelines can be optimized using configurable knobs for each operation such as the sampling rate, batch size, or type of hardware used. However, determining efficient configurations is challenging because (a) the configuration search space is exponentially large, and (b) the optimal configuration depends on the desired latency target and the input video contents that may exercise different paths in the DAG and produce different volumes of intermediate results. Existing video analytics and processing systems leave it to the users to manually configure operations and select hardware resources. Hence, we observe that they often execute inefficiently and fail to meet latency and cost targets. In this talk, we present Llama, a heterogeneous and serverless framework for auto-tuning video pipelines. Llama optimizes the overall video pipeline latency by (a) dynamically calculating latency targets per-operation invocation, and (b) dynamically running a cost-based optimizer to determine efficient configurations that meet the target latency for each invocation. We show that Llama achieves reduced latency and cost compared to state-of-the-art cluster and serverless video analytics and processing systems.
     - speaker: Brennan Shacklett
       date: 04/08/2021
       title: "Large Batch Simulation for Deep Reinforcement Learning"      
