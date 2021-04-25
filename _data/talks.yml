@@ -1,12 +1,28 @@
 - type: Upcoming Talks
   members:
+    - speaker: Caroline Trippel
+      date: 05/20/2021
+      title: "Title TBA"
+      website: https://cs.stanford.edu/people/trippel/
+    - speaker: Daniel Kang
+      date: 05/27/2021
+      title: "Title TBA"
+      website: https://ddkang.github.io/
+    - speaker: John Ousterhout
+      date: 06/03/2021
+      title: "Title TBA"
+      website: https://web.stanford.edu/~ouster/cgi-bin/home.php
+    - speaker: Zhihao Jia
+      date: 06/10/2021
+      title: "Title TBA"
+      website: https://cs.stanford.edu/~zhihao/
+- type: Past Talks
+  members:
     - speaker: Naama Ben-David
       date: 04/22/2021
       title: "Microsecond Consensus for Microsecond Applications"
       abstract:  State machine replication (SMR) increases the availability of an application; by replicating each request to multiple servers, the system can hide server failures from a client. However, replicating requests introduces overhead. Indeed, traditional SMR may add hundreds of microseconds in normal execution, and need hundreds of milliseconds to recover from a server failure. With the rise of microsecond applications, such replication overheads become unacceptable. Newer SMR systems reduce this overhead to several microseconds in normal execution, and recover in just tens of milliseconds. However, for the fastest applications, this may still be unsatisfactory.  In this talk, I’ll present our work on a new state machine replication system called Mu, which carefully leverages remote direct memory access (RDMA) to drastically improve replication latency. Mu requires only 1.3 microseconds to replicate a request, and takes less than a millisecond to recover from failures. Thus, Mu demonstrates that replication algorithms can be fast -- both in normal execution and in recovery. 
       website: https://sites.google.com/view/naama-ben-david/home
-- type: Past Talks
-  members:
     - speaker: Francisco Romero and Mark Zhao
       date: 04/15/2021
       title: "Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines"      
