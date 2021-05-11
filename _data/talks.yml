@@ -4,6 +4,7 @@
       date: 05/13/2021
       title: "Compiling Sparse Array Programming Languages"
       abstract: We present the first compiler for the general class of sparse array programming languages (i.e., sparse NumPy). A sparse array programming language supports element-wise operations, reduction, and broadcasting of arbitrary functions over both dense and sparse arrays. Such languages have great expressive power and can express sparse/dense tensor algebra, functions over images, exclusion and inclusion filters, and even graph algorithms. Our compiler generalizes prior work on sparse tensor algebra compilation, which assumes additions and multiplications only, to any function over sparse arrays. We thus generalize the notion of sparse iteration spaces beyond intersections and unions and automatically derive them from how the algebraic properties of the functions interact with the compressed out values of the arrays. We then show for the first time how to compile these iteration spaces to efficient code. The resulting bespoke code performs 1.5–70x (geometric mean of 13.7x)  better than the Pydata/Sparse Python library, which implements the alternative approach that reorganizes sparse data and calls pre-written dense functions.
+      website: https://weiya711.github.io/
     - speaker: Caroline Trippel
       date: 05/20/2021
       title: "Title TBA"
