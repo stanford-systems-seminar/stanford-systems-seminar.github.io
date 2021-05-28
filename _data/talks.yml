@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Daniel Kang
-      date: 05/27/2021
-      title: "Jointly Optimizing Preprocessing and Inference for DNN-based Visual Analytics"
-      abstract: "While deep neural networks (DNNs) are an increasingly popular way to query large corpora of data, their significant runtime remains an active area of research. As a result, researchers have proposed systems and optimizations to reduce these costs by allowing users to trade off accuracy and speed. In this work, we examine end-to-end DNN execution in visual analytics systems on modern accelerators. Through a novel measurement study, we show that the preprocessing of data (eg, decoding, resizing) can be the bottleneck in many visual analytics systems on modern hardware.  To address the bottleneck of preprocessing, we introduce two optimizations for end-to-end visual analytics systems. First, we introduce novel methods of achieving accuracy and throughput trade-offs by using natively present, low-resolution visual data. Second, we develop a runtime engine for efficient visual DNN inference. This runtime engine a) efficiently pipelines preprocessing and DNN execution for inference, b) places preprocessing operations on the CPU or GPU in a hardware-and input-aware manner, and c) efficiently manages memory and threading for high throughput execution. We implement these optimizations in a novel system, Smol, and evaluate Smol on eight visual datasets. We show that its optimizations can achieve up to 5.9x end-to-end throughput improvements at a fixed accuracy over recent work in visual analytics."
-      website: https://ddkang.github.io/
     - speaker: Zhihao Jia
       date: 06/10/2021
       title: "Title TBA"
@@ -13,8 +8,18 @@
       date: 06/17/2021
       title: "Title TBA"
       website: https://web.stanford.edu/~ouster/cgi-bin/home.php
+    - speaker: Gina Yuan
+      date: 06/24/2021
+      title: "Designing a Smart Home around Pure-Local Privacy"
+      abstract: "Internet-connected IoT devices pose a significant threat to user privacy. Compromised or malicious vendors have access to microphones, cameras, door locks, and other highly sensitive data sources in people’s homes. Though a few IoT apps inherently depend on the cloud for consuming content and sharing analytics, much of the rationale for cloud-based control is to utilize cloud hardware resources. However, many users already own the computation, storage, and connectivity necessary to support today’s IoT applications. The missing piece is a framework to make these resources available to IoT devices. This talk presents Karl, an architecture for a home cloud that executes as much functionality as possible on user-owned hardware. Karl allows IoT devices to offload computation and storage to the user’s own computers using a module programming model inspired by serverless computing. Karl also mediates access to the Internet through pipeline policies, easily visualized and mapped to English-language privacy guarantees. Pipeline policies are compiled down to a simplified form of mandatory access control based on tags, which justify the transfer of data between and out of sandboxed modules. We prototype Karl and implement 3 sensors, 9 modules, and 9 pipeline policies using it. We show that Karl can easily express sophisticated privacy policies and is practical, with latencies below 2ms for interactive applications."
+      website: http://www.ginayuan.com/
 - type: Past Talks
   members:
+    - speaker: Daniel Kang
+      date: 05/27/2021
+      title: "Jointly Optimizing Preprocessing and Inference for DNN-based Visual Analytics"
+      abstract: "While deep neural networks (DNNs) are an increasingly popular way to query large corpora of data, their significant runtime remains an active area of research. As a result, researchers have proposed systems and optimizations to reduce these costs by allowing users to trade off accuracy and speed. In this work, we examine end-to-end DNN execution in visual analytics systems on modern accelerators. Through a novel measurement study, we show that the preprocessing of data (eg, decoding, resizing) can be the bottleneck in many visual analytics systems on modern hardware.  To address the bottleneck of preprocessing, we introduce two optimizations for end-to-end visual analytics systems. First, we introduce novel methods of achieving accuracy and throughput trade-offs by using natively present, low-resolution visual data. Second, we develop a runtime engine for efficient visual DNN inference. This runtime engine a) efficiently pipelines preprocessing and DNN execution for inference, b) places preprocessing operations on the CPU or GPU in a hardware-and input-aware manner, and c) efficiently manages memory and threading for high throughput execution. We implement these optimizations in a novel system, Smol, and evaluate Smol on eight visual datasets. We show that its optimizations can achieve up to 5.9x end-to-end throughput improvements at a fixed accuracy over recent work in visual analytics."
+      website: https://ddkang.github.io/
     - speaker: Caroline Trippel
       date: 05/20/2021
       title: Application Correctness and Security via Formal Methods for Systems
