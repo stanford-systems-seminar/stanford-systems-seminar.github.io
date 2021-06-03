@@ -2,7 +2,9 @@
   members:
     - speaker: Zhihao Jia
       date: 06/10/2021
-      title: "Title TBA"
+      title: "Automatically Discovering Systems Optimizations for Machine Learning"
+      abstract: "As an increasingly important workload, machine learning (ML) applications require different performance optimization techniques from traditional runtimes and compilers. In particular, to accelerate ML applications, it is generally necessary to perform ML computations on heterogeneous hardware and parallelize computations using multiple data dimensions, neither of which is even expressible in traditional compilers and runtimes. In this talk, I will describe our work on automated approaches to building performant and scalable ML systems. Instead of relying on human effort to manually design and implement systems optimizations for ML workload, our work automatically discovers ML optimizations by leveraging the statistical and mathematical properties of ML computations, such as the multi-linearity of tensor algebra. Compared to today's manually-design systems optimizations, our work significantly improves the efficiency and scalability of ML computations and provides stronger correctness guarantees, while requiring much less human effort. I will also outline future research directions for further automating ML systems, such as codesigning ML models, software systems, and hardware backends for end-to-end ML deployment."
+      biography: "Zhihao Jia is a research scientist at Facebook and will join CMU as an assistant professor of computer science in Fall 2021. He obtained his Ph.D. from Stanford working with Alex Aiken and Matei Zaharia. His research interests lie in the intersection of computer systems and machine learning, with a focus on building efficient, scalable, and high-performance systems for ML computations."
       website: https://cs.stanford.edu/~zhihao/
     - speaker: John Ousterhout
       date: 06/17/2021
