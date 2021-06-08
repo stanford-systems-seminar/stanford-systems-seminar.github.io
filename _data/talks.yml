@@ -8,7 +8,8 @@
       website: https://cs.stanford.edu/~zhihao/
     - speaker: John Ousterhout
       date: 06/17/2021
-      title: "Title TBA"
+      title: "The Story of Raft"
+      abstract: "In this talk I will discuss the back-story behind the Raft consensus algorithm: why we decided to undertake this project, how the algorithm developed, and the challenges of publishing an idea that 'gores a sacred cow'. I will also make several observations about how to perform research, how program committees work, and the relationship between Paxos and Raft."
       website: https://web.stanford.edu/~ouster/cgi-bin/home.php
     - speaker: Gina Yuan
       date: 06/24/2021
