@@ -1,12 +1,12 @@
 - type: Upcoming Talks
   members:
+- type: Past Talks
+  members:
     - speaker: Gina Yuan
       date: 06/24/2021
       title: "Designing a Smart Home around Pure-Local Privacy"
       abstract: "Internet-connected IoT devices pose a significant threat to user privacy. Compromised or malicious vendors have access to microphones, cameras, door locks, and other highly sensitive data sources in people’s homes. Though a few IoT apps inherently depend on the cloud for consuming content and sharing analytics, much of the rationale for cloud-based control is to utilize cloud hardware resources. However, many users already own the computation, storage, and connectivity necessary to support today’s IoT applications. The missing piece is a framework to make these resources available to IoT devices. This talk presents Karl, an architecture for a home cloud that executes as much functionality as possible on user-owned hardware. Karl allows IoT devices to offload computation and storage to the user’s own computers using a module programming model inspired by serverless computing. Karl also mediates access to the Internet through pipeline policies, easily visualized and mapped to English-language privacy guarantees. Pipeline policies are compiled down to a simplified form of mandatory access control based on tags, which justify the transfer of data between and out of sandboxed modules. We prototype Karl and implement 3 sensors, 9 modules, and 9 pipeline policies using it. We show that Karl can easily express sophisticated privacy policies and is practical, with latencies below 2ms for interactive applications."
       website: http://www.ginayuan.com/
-- type: Past Talks
-  members:
     - speaker: John Ousterhout
       date: 06/17/2021
       title: "The Story of Raft"
