@@ -1,5 +1,15 @@
 - type: Upcoming Talks
   members:
+    - speaker: Theo Jepsen
+      date: 10/07/2021
+      title: "In-Network Support for Transaction Triaging"
+      abstract: "TBA"
+      website: http://web.stanford.edu/~jepsen/index.html
+    - speaker: Kostis Kaffes
+      date: 10/14/2021
+      title: "Syrup: User-Defined Scheduling across the Stack"
+      abstract: "TBA"
+      website: http://stanford.edu/~kkaffes/
 - type: Past Talks
   members:
     - speaker: Gina Yuan
