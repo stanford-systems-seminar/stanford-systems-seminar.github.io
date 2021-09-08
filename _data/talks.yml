@@ -1,5 +1,10 @@
 - type: Upcoming Talks
   members:
+    - speaker: Sara Achour
+      date: 09/30/2021
+      title: "TBA"
+      abstract: "TBA"
+      website: http://people.csail.mit.edu/sachour/
     - speaker: Theo Jepsen
       date: 10/07/2021
       title: "In-Network Support for Transaction Triaging"
@@ -10,6 +15,16 @@
       title: "Syrup: User-Defined Scheduling across the Stack"
       abstract: "TBA"
       website: http://stanford.edu/~kkaffes/
+    - speaker: Pratiksha Thaker
+      date: 10/21/2021
+      title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
+      abstract: "TBA"
+      website: https://cs.stanford.edu/~prthaker/
+    - speaker: Bruce Spang
+      date: 10/21/2021
+      title: "Unbiased Experiments for Network Algorithms"
+      abstract: "When developing a new networking algorithm, it is established practice to run a randomized experiment, or A/B test, to evaluate its performance. In an A/B test, traffic is randomly allocated between a treatment group, which uses the new algorithm, and a control group, which uses the existing algorithm. However, because networks are congested, both treatment and control traffic compete against each other for resources in a way that biases the outcome of these tests.  This bias can have a surprisingly large effect; for example, in lab A/B tests with two widely used congestion control algorithms, the treatment appeared to deliver 150% higher throughput when used by a few flows, and 75% lower throughput when used by most flows–despite the fact that the two algorithms have identical throughput when used by all traffic.  Beyond the lab, we show that A/B tests can also be biased at scale. In an experiment run in cooperation with Netflix, estimates from A/B tests mistake the direction of change of some metrics, miss changes in other metrics, and overestimate the size of effects. We propose alternative experiment designs, previously used in online platforms, to more accurately evaluate new algorithms and allow experimenters to better understand the impact of congestion on their tests."
+      website: https://brucespang.com/
 - type: Past Talks
   members:
     - speaker: Gina Yuan
