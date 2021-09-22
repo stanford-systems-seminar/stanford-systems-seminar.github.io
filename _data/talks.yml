@@ -2,8 +2,9 @@
   members:
     - speaker: Sara Achour
       date: 09/30/2021
-      title: "TBA"
-      abstract: "TBA"
+      title: "New Compilation Techniques for Reconfigurable Analog Devices"
+      abstract: "Reconfigurable analog devices are a powerful new computing substrate especially appropriate for executing dynamical systems in an energy efficient manner. These devices leverage the physical behavior of transistors to directly implement computation. Under this paradigm, voltages and currents within the device implement continuously evolving variables in the computation. In this talk, I discuss compilation techniques for automatically configuring such devices to execute dynamical systems. I present Legno, the first compilation system that automatically targets a real reconfigurable analog device of this class. Legno synthesizes analog circuits from parametric and specialized analog blocks and accounts for analog noise, quantization error, operating range limitations, and manufacturing variations within the device. I evaluate Legno on applications from the biology, physics, and controls domains. The results demonstrate that these applications execute with acceptable error while consuming microjoules of energy."
+      biography: "Sara Achour is an Assistant Professor jointly appointed to both the Computer Science Department and the Electrical Engineering Department at Stanford University. Her research focuses on new techniques and tools, specifically new programming languages, compilers, and runtime systems, that enable end-users to easily develop computations that exploit the potential of emergent nontraditional computing platforms."
       website: http://people.csail.mit.edu/sachour/
     - speaker: Theo Jepsen
       date: 10/07/2021
