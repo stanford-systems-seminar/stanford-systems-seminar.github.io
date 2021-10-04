@@ -1,15 +1,9 @@
 - type: Upcoming Talks
   members:
-    - speaker: Sara Achour
-      date: 09/30/2021
-      title: "New Compilation Techniques for Reconfigurable Analog Devices"
-      abstract: "Reconfigurable analog devices are a powerful new computing substrate especially appropriate for executing dynamical systems in an energy efficient manner. These devices leverage the physical behavior of transistors to directly implement computation. Under this paradigm, voltages and currents within the device implement continuously evolving variables in the computation. In this talk, I discuss compilation techniques for automatically configuring such devices to execute dynamical systems. I present Legno, the first compilation system that automatically targets a real reconfigurable analog device of this class. Legno synthesizes analog circuits from parametric and specialized analog blocks and accounts for analog noise, quantization error, operating range limitations, and manufacturing variations within the device. I evaluate Legno on applications from the biology, physics, and controls domains. The results demonstrate that these applications execute with acceptable error while consuming microjoules of energy."
-      biography: "Sara Achour is an Assistant Professor jointly appointed to both the Computer Science Department and the Electrical Engineering Department at Stanford University. Her research focuses on new techniques and tools, specifically new programming languages, compilers, and runtime systems, that enable end-users to easily develop computations that exploit the potential of emergent nontraditional computing platforms."
-      website: http://people.csail.mit.edu/sachour/
     - speaker: Theo Jepsen
       date: 10/07/2021
       title: "In-Network Support for Transaction Triaging"
-      abstract: "TBA"
+      abstract: "We introduce Transaction Triaging, a set of techniques that manipulate streams of transaction requests and responses while they travel to and from a database server. Compared to normal transaction streams, the triaged ones execute faster once they reach the database. The triaging algorithms do not interfere with the transaction execution nor require adherence to any particular concurrency control method, making them easy to port across database systems. Transaction Triaging leverages recent programmable networking hardware that can perform computations on in-flight data. We evaluate our techniques on an in-memory database system using an actual programmable hardware network switch. Our experimental results show that triaging brings enough performance gains to compensate for almost all networking overheads. In high-overhead network stacks such as UDP/IP, we see throughput improvements from 2.05× to 7.95×. In an RDMA stack, the gains range from 1.08× to 1.90× without introducing significant latency."
       website: http://web.stanford.edu/~jepsen/index.html
     - speaker: Kostis Kaffes
       date: 10/14/2021
@@ -48,6 +42,12 @@
       website: http://www.maxdml.com/
 - type: Past Talks
   members:
+    - speaker: Sara Achour
+      date: 09/30/2021
+      title: "New Compilation Techniques for Reconfigurable Analog Devices"
+      abstract: "Reconfigurable analog devices are a powerful new computing substrate especially appropriate for executing dynamical systems in an energy efficient manner. These devices leverage the physical behavior of transistors to directly implement computation. Under this paradigm, voltages and currents within the device implement continuously evolving variables in the computation. In this talk, I discuss compilation techniques for automatically configuring such devices to execute dynamical systems. I present Legno, the first compilation system that automatically targets a real reconfigurable analog device of this class. Legno synthesizes analog circuits from parametric and specialized analog blocks and accounts for analog noise, quantization error, operating range limitations, and manufacturing variations within the device. I evaluate Legno on applications from the biology, physics, and controls domains. The results demonstrate that these applications execute with acceptable error while consuming microjoules of energy."
+      biography: "Sara Achour is an Assistant Professor jointly appointed to both the Computer Science Department and the Electrical Engineering Department at Stanford University. Her research focuses on new techniques and tools, specifically new programming languages, compilers, and runtime systems, that enable end-users to easily develop computations that exploit the potential of emergent nontraditional computing platforms."
+      website: http://people.csail.mit.edu/sachour/
     - speaker: Gina Yuan
       date: 06/24/2021
       title: "Designing a Smart Home around Pure-Local Privacy"
