@@ -1,19 +1,9 @@
 - type: Upcoming Talks
   members:
-    - speaker: Theo Jepsen
-      date: 10/07/2021
-      title: "In-Network Support for Transaction Triaging"
-      abstract: "We introduce Transaction Triaging, a set of techniques that manipulate streams of transaction requests and responses while they travel to and from a database server. Compared to normal transaction streams, the triaged ones execute faster once they reach the database. The triaging algorithms do not interfere with the transaction execution nor require adherence to any particular concurrency control method, making them easy to port across database systems. Transaction Triaging leverages recent programmable networking hardware that can perform computations on in-flight data. We evaluate our techniques on an in-memory database system using an actual programmable hardware network switch. Our experimental results show that triaging brings enough performance gains to compensate for almost all networking overheads. In high-overhead network stacks such as UDP/IP, we see throughput improvements from 2.05× to 7.95×. In an RDMA stack, the gains range from 1.08× to 1.90× without introducing significant latency."
-      website: http://web.stanford.edu/~jepsen/index.html
-    - speaker: Kostis Kaffes
-      date: 10/14/2021
-      title: "Syrup: User-Defined Scheduling across the Stack"
-      abstract: "Suboptimal scheduling decisions in operating systems, networking stacks, and application runtimes are often responsible for poor application performance, including higher latency and lower throughput. These poor decisions stem from a lack of insight into the applications and requests the scheduler is handling and a lack of coherence and coordination between the various layers of the stack, including NICs, kernels, and applications. We propose Syrup, a framework for user-defined scheduling. Syrup enables untrusted application developers to express application-specific scheduling policies across these system layers without being burdened with the low-level system mechanisms that implement them. Application developers write a scheduling policy with Syrup as a set of matching functions between inputs (threads, network packets, network connections) and executors (cores, network sockets, NIC queues) and then deploy it across system layers without modifying their code. Syrup supports multi-tenancy as multiple co-located applications can each safely and securely specify a custom policy. We present several examples of uses of Syrup to define application and workload-specific scheduling policies in a few lines of code, deploy them across the stack, and improve performance up to 8x compared with default policies."
-      website: http://stanford.edu/~kkaffes/
     - speaker: Pratiksha Thaker
       date: 10/21/2021
       title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
-      abstract: "TBA"
+      abstract: "We propose Clamor, a functional cluster computing framework that adds support for fine-grained, transparent access to global variables for distributed, data-parallel tasks. Clamor targets workloads that perform sparse accesses and updates within the bulk synchronous parallel execution model, a setting where the standard technique of broadcasting global variables is highly inefficient. Clamor implements a novel dynamic replication mechanism in order to enable efficient access to popular data regions on the fly, and tracks fine-grained dependencies in order to retain the lineage-based fault tolerance model of systems like Spark. Clamor can integrate with existing Rust and C ++ libraries to transparently distribute programs on the cluster. We show that Clamor is competitive with Spark in simple functional workloads and can improve performance significantly compared to custom systems on workloads that sparsely access large global variables: from 5× for sparse logistic regression to over 100× on distributed geospatial queries."
       website: https://cs.stanford.edu/~prthaker/
     - speaker: Bruce Spang
       date: 10/28/2021
@@ -42,6 +32,16 @@
       website: http://www.maxdml.com/
 - type: Past Talks
   members:
+    - speaker: Theo Jepsen
+      date: 10/07/2021
+      title: "In-Network Support for Transaction Triaging"
+      abstract: "We introduce Transaction Triaging, a set of techniques that manipulate streams of transaction requests and responses while they travel to and from a database server. Compared to normal transaction streams, the triaged ones execute faster once they reach the database. The triaging algorithms do not interfere with the transaction execution nor require adherence to any particular concurrency control method, making them easy to port across database systems. Transaction Triaging leverages recent programmable networking hardware that can perform computations on in-flight data. We evaluate our techniques on an in-memory database system using an actual programmable hardware network switch. Our experimental results show that triaging brings enough performance gains to compensate for almost all networking overheads. In high-overhead network stacks such as UDP/IP, we see throughput improvements from 2.05× to 7.95×. In an RDMA stack, the gains range from 1.08× to 1.90× without introducing significant latency."
+      website: http://web.stanford.edu/~jepsen/index.html
+    - speaker: Kostis Kaffes
+      date: 10/14/2021
+      title: "Syrup: User-Defined Scheduling across the Stack"
+      abstract: "Suboptimal scheduling decisions in operating systems, networking stacks, and application runtimes are often responsible for poor application performance, including higher latency and lower throughput. These poor decisions stem from a lack of insight into the applications and requests the scheduler is handling and a lack of coherence and coordination between the various layers of the stack, including NICs, kernels, and applications. We propose Syrup, a framework for user-defined scheduling. Syrup enables untrusted application developers to express application-specific scheduling policies across these system layers without being burdened with the low-level system mechanisms that implement them. Application developers write a scheduling policy with Syrup as a set of matching functions between inputs (threads, network packets, network connections) and executors (cores, network sockets, NIC queues) and then deploy it across system layers without modifying their code. Syrup supports multi-tenancy as multiple co-located applications can each safely and securely specify a custom policy. We present several examples of uses of Syrup to define application and workload-specific scheduling policies in a few lines of code, deploy them across the stack, and improve performance up to 8x compared with default policies."
+      website: http://stanford.edu/~kkaffes/
     - speaker: Sara Achour
       date: 09/30/2021
       title: "New Compilation Techniques for Reconfigurable Analog Devices"
