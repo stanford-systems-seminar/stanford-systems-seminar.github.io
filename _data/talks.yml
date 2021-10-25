@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Pratiksha Thaker
-      date: 10/21/2021
-      title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
-      abstract: "We propose Clamor, a functional cluster computing framework that adds support for fine-grained, transparent access to global variables for distributed, data-parallel tasks. Clamor targets workloads that perform sparse accesses and updates within the bulk synchronous parallel execution model, a setting where the standard technique of broadcasting global variables is highly inefficient. Clamor implements a novel dynamic replication mechanism in order to enable efficient access to popular data regions on the fly, and tracks fine-grained dependencies in order to retain the lineage-based fault tolerance model of systems like Spark. Clamor can integrate with existing Rust and C ++ libraries to transparently distribute programs on the cluster. We show that Clamor is competitive with Spark in simple functional workloads and can improve performance significantly compared to custom systems on workloads that sparsely access large global variables: from 5× for sparse logistic regression to over 100× on distributed geospatial queries."
-      website: https://cs.stanford.edu/~prthaker/
     - speaker: Bruce Spang
       date: 10/28/2021
       title: "Unbiased Experiments for Network Algorithms"
@@ -32,6 +27,11 @@
       website: http://www.maxdml.com/
 - type: Past Talks
   members:
+    - speaker: Pratiksha Thaker
+      date: 10/21/2021
+      title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
+      abstract: "We propose Clamor, a functional cluster computing framework that adds support for fine-grained, transparent access to global variables for distributed, data-parallel tasks. Clamor targets workloads that perform sparse accesses and updates within the bulk synchronous parallel execution model, a setting where the standard technique of broadcasting global variables is highly inefficient. Clamor implements a novel dynamic replication mechanism in order to enable efficient access to popular data regions on the fly, and tracks fine-grained dependencies in order to retain the lineage-based fault tolerance model of systems like Spark. Clamor can integrate with existing Rust and C ++ libraries to transparently distribute programs on the cluster. We show that Clamor is competitive with Spark in simple functional workloads and can improve performance significantly compared to custom systems on workloads that sparsely access large global variables: from 5× for sparse logistic regression to over 100× on distributed geospatial queries."
+      website: https://cs.stanford.edu/~prthaker/
     - speaker: Theo Jepsen
       date: 10/07/2021
       title: "In-Network Support for Transaction Triaging"
