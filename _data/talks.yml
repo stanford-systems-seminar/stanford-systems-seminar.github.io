@@ -8,7 +8,7 @@
     - speaker: Shoumik Palkar
       date: 11/04/2021
       title: "Photon: A High-Performance Query Engine for the Lakehouse"
-      abstract: "TBA"
+      abstract: "Organizations are shifting to a new paradigm called the Lakehouse, which promises the benefits of structured data warehouses on top of unstructured data lakes. This presents new challenges for query execution engines. The execution engine needs to provide good performance over raw uncurated datasets that are ubiquitous in data lakes, and state-of-the-art performance over structured tables stored in open file formats to provide the main benefits of SQL warehouses. Toward these goals, we present Photon, a new native vectorized query engine for the Lakehouse that underlies Databricks Runtime, the execution framework underlying all Databricks workloads. Photon can outperform other cloud data warehouses' specialized engines, but is implemented on top of a more general execution framework that operates over open file formats such as Apache Parquet using modern database techniques such as interpreted vectorization. We discuss the design choices that underlie Photon (e.g., vectorization vs.  code generation) and describe its integration with our existing runtime, its task model, and its memory manager. Photon exhibits a 4x improvement end-to-end on the TPC-DS benchmark compared to the previous code-generated engine and has improved customer queries in the field by up to 11x."
       website: https://shoumik.xyz/
     - speaker: Irene Zhang
       date: 11/11/2021
