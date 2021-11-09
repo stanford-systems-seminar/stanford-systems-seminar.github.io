@@ -1,19 +1,32 @@
 - type: Upcoming Talks
   members:
-    - speaker: Bruce Spang
-      date: 10/28/2021
-      title: "Unbiased Experiments for Network Algorithms"
-      abstract: "When developing a new networking algorithm, it is established practice to run a randomized experiment, or A/B test, to evaluate its performance. In an A/B test, traffic is randomly allocated between a treatment group, which uses the new algorithm, and a control group, which uses the existing algorithm. However, because networks are congested, both treatment and control traffic compete against each other for resources in a way that biases the outcome of these tests.  This bias can have a surprisingly large effect; for example, in lab A/B tests with two widely used congestion control algorithms, the treatment appeared to deliver 150% higher throughput when used by a few flows, and 75% lower throughput when used by most flows–despite the fact that the two algorithms have identical throughput when used by all traffic.  Beyond the lab, we show that A/B tests can also be biased at scale. In an experiment run in cooperation with Netflix, estimates from A/B tests mistake the direction of change of some metrics, miss changes in other metrics, and overestimate the size of effects. We propose alternative experiment designs, previously used in online platforms, to more accurately evaluate new algorithms and allow experimenters to better understand the impact of congestion on their tests."
-      website: https://brucespang.com/
-    - speaker: Shoumik Palkar
-      date: 11/04/2021
-      title: "Photon: A High-Performance Query Engine for the Lakehouse"
-      abstract: "Organizations are shifting to a new paradigm called the Lakehouse, which promises the benefits of structured data warehouses on top of unstructured data lakes. This presents new challenges for query execution engines. The execution engine needs to provide good performance over raw uncurated datasets that are ubiquitous in data lakes, and state-of-the-art performance over structured tables stored in open file formats to provide the main benefits of SQL warehouses. Toward these goals, we present Photon, a new native vectorized query engine for the Lakehouse that underlies Databricks Runtime, the execution framework underlying all Databricks workloads. Photon can outperform other cloud data warehouses' specialized engines, but is implemented on top of a more general execution framework that operates over open file formats such as Apache Parquet using modern database techniques such as interpreted vectorization. We discuss the design choices that underlie Photon (e.g., vectorization vs.  code generation) and describe its integration with our existing runtime, its task model, and its memory manager. Photon exhibits a 4x improvement end-to-end on the TPC-DS benchmark compared to the previous code-generated engine and has improved customer queries in the field by up to 11x."
-      website: https://shoumik.xyz/
     - speaker: Irene Zhang
+      biography: "Irene Zhang is a Principal Researcher at Microsoft Research.  Her
+work focuses on datacenter operating systems and distributed systems,
+especially making new datacenter hardware technologies more widely
+usable by highly-demanding datacenter applications.  Irene completed
+her PhD in 2017 at the University of Washington, where her PhD thesis
+focused on distributed systems that span mobile devices and cloud
+servers.  Her thesis work received the ACM SIGOPS Dennis Ritchie
+doctoral dissertation award and the UW Allen School William Chan
+Memorial dissertation award.  Before her PhD, Irene was a member of
+the virtual machine monitor group at VMware, where she worked on
+memory resource management and virtual machine checkpointing."
       date: 11/11/2021
       title: "The Demikernel Library OS Architecture for Microsecond Datacenter Systems"
-      abstract: "TBA"
+      abstract: "Datacenter systems and I/O devices now run at single-digit microsecond
+latencies, requiring nanosecond-scale operating systems. Traditional
+kernel-based operating systems impose an unaffordable overhead, so
+recent kernel-bypass OSes (e.g., Arrakis, Ix) and libraries (e.g.,
+Caladan, eRPC) eliminate the OS kernel from the I/O datapath. However,
+none of these systems offer a general-purpose datapath OS replacement
+that meet the needs of microsecond-scale systems. This talk proposes Demikernel, a flexible datapath OS and architecture
+designed for heterogenous kernel-bypass devices and microsecond-scale
+datacenter systems. We have built two prototype Demikernel datapath
+OSes and show that minimal effort is needed to port existing
+microsecond-scale systems. Once ported, Demikernel lets applications
+run across heterogenous kernel-bypass devices with nanosecond-scale
+overheads and no code changes."
       website: https://irenezhang.net/
     - speaker: Deepak Narayanan
       date: 11/18/2021
@@ -27,6 +40,16 @@
       website: http://www.maxdml.com/
 - type: Past Talks
   members:
+    - speaker: Bruce Spang
+      date: 10/28/2021
+      title: "Unbiased Experiments for Network Algorithms"
+      abstract: "When developing a new networking algorithm, it is established practice to run a randomized experiment, or A/B test, to evaluate its performance. In an A/B test, traffic is randomly allocated between a treatment group, which uses the new algorithm, and a control group, which uses the existing algorithm. However, because networks are congested, both treatment and control traffic compete against each other for resources in a way that biases the outcome of these tests.  This bias can have a surprisingly large effect; for example, in lab A/B tests with two widely used congestion control algorithms, the treatment appeared to deliver 150% higher throughput when used by a few flows, and 75% lower throughput when used by most flows–despite the fact that the two algorithms have identical throughput when used by all traffic.  Beyond the lab, we show that A/B tests can also be biased at scale. In an experiment run in cooperation with Netflix, estimates from A/B tests mistake the direction of change of some metrics, miss changes in other metrics, and overestimate the size of effects. We propose alternative experiment designs, previously used in online platforms, to more accurately evaluate new algorithms and allow experimenters to better understand the impact of congestion on their tests."
+      website: https://brucespang.com/
+    - speaker: Shoumik Palkar
+      date: 11/04/2021
+      title: "Photon: A High-Performance Query Engine for the Lakehouse"
+      abstract: "Organizations are shifting to a new paradigm called the Lakehouse, which promises the benefits of structured data warehouses on top of unstructured data lakes. This presents new challenges for query execution engines. The execution engine needs to provide good performance over raw uncurated datasets that are ubiquitous in data lakes, and state-of-the-art performance over structured tables stored in open file formats to provide the main benefits of SQL warehouses. Toward these goals, we present Photon, a new native vectorized query engine for the Lakehouse that underlies Databricks Runtime, the execution framework underlying all Databricks workloads. Photon can outperform other cloud data warehouses' specialized engines, but is implemented on top of a more general execution framework that operates over open file formats such as Apache Parquet using modern database techniques such as interpreted vectorization. We discuss the design choices that underlie Photon (e.g., vectorization vs.  code generation) and describe its integration with our existing runtime, its task model, and its memory manager. Photon exhibits a 4x improvement end-to-end on the TPC-DS benchmark compared to the previous code-generated engine and has improved customer queries in the field by up to 11x."
+      website: https://shoumik.xyz/
     - speaker: Pratiksha Thaker
       date: 10/21/2021
       title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
