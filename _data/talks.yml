@@ -1,5 +1,17 @@
 - type: Upcoming Talks
   members:
+    - speaker: Deepak Narayanan
+      date: 11/18/2021
+      title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
+      abstract: "Resource allocation problems in many computer systems can be formulated as mathematical optimization problems. However, finding exact solutions to these problems using off-the-shelf solvers is often intractable for large problem sizes with tight SLAs, leading system designers to rely on cheap, heuristic algorithms. We observe, however, that many allocation problems are granular: they consist of a large number of clients and resources, each client requests a small fraction of the total number of resources, and clients can interchangeably use different resources. For these problems, we propose an alternative approach that reuses the original optimization problem formulation and leads to better allocations than domain-specific heuristics. Our technique, Partitioned Optimization Problems (POP), randomly splits the problem into smaller problems (with a subset of the clients and resources in the system) and coalesces the resulting sub-allocations into a global allocation for all clients. We provide theoretical and empirical evidence as to why random partitioning works well. In our experiments, POP achieves allocations within 1.5% of the optimal with orders-of-magnitude improvements in runtime compared to existing systems for cluster scheduling, traffic engineering, and load balancing."
+      website: https://cs.stanford.edu/~deepakn/
+    - speaker: Max Demoulin
+      date: 12/02/2021
+      title: "Service Boosters: Library Operating Systems for the Datacenter"
+      abstract: "TBA"
+      website: http://www.maxdml.com/
+- type: Past Talks
+  members:
     - speaker: Irene Zhang
       biography: "Irene Zhang is a Principal Researcher at Microsoft Research.  Her
 work focuses on datacenter operating systems and distributed systems,
@@ -28,28 +40,16 @@ microsecond-scale systems. Once ported, Demikernel lets applications
 run across heterogenous kernel-bypass devices with nanosecond-scale
 overheads and no code changes."
       website: https://irenezhang.net/
-    - speaker: Deepak Narayanan
-      date: 11/18/2021
-      title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
-      abstract: "TBA"
-      website: https://cs.stanford.edu/~deepakn/
-    - speaker: Max Demoulin
-      date: 12/02/2021
-      title: "Service Boosters: Library Operating Systems for the Datacenter"
-      abstract: "TBA"
-      website: http://www.maxdml.com/
-- type: Past Talks
-  members:
-    - speaker: Bruce Spang
-      date: 10/28/2021
-      title: "Unbiased Experiments for Network Algorithms"
-      abstract: "When developing a new networking algorithm, it is established practice to run a randomized experiment, or A/B test, to evaluate its performance. In an A/B test, traffic is randomly allocated between a treatment group, which uses the new algorithm, and a control group, which uses the existing algorithm. However, because networks are congested, both treatment and control traffic compete against each other for resources in a way that biases the outcome of these tests.  This bias can have a surprisingly large effect; for example, in lab A/B tests with two widely used congestion control algorithms, the treatment appeared to deliver 150% higher throughput when used by a few flows, and 75% lower throughput when used by most flows–despite the fact that the two algorithms have identical throughput when used by all traffic.  Beyond the lab, we show that A/B tests can also be biased at scale. In an experiment run in cooperation with Netflix, estimates from A/B tests mistake the direction of change of some metrics, miss changes in other metrics, and overestimate the size of effects. We propose alternative experiment designs, previously used in online platforms, to more accurately evaluate new algorithms and allow experimenters to better understand the impact of congestion on their tests."
-      website: https://brucespang.com/
     - speaker: Shoumik Palkar
       date: 11/04/2021
       title: "Photon: A High-Performance Query Engine for the Lakehouse"
       abstract: "Organizations are shifting to a new paradigm called the Lakehouse, which promises the benefits of structured data warehouses on top of unstructured data lakes. This presents new challenges for query execution engines. The execution engine needs to provide good performance over raw uncurated datasets that are ubiquitous in data lakes, and state-of-the-art performance over structured tables stored in open file formats to provide the main benefits of SQL warehouses. Toward these goals, we present Photon, a new native vectorized query engine for the Lakehouse that underlies Databricks Runtime, the execution framework underlying all Databricks workloads. Photon can outperform other cloud data warehouses' specialized engines, but is implemented on top of a more general execution framework that operates over open file formats such as Apache Parquet using modern database techniques such as interpreted vectorization. We discuss the design choices that underlie Photon (e.g., vectorization vs.  code generation) and describe its integration with our existing runtime, its task model, and its memory manager. Photon exhibits a 4x improvement end-to-end on the TPC-DS benchmark compared to the previous code-generated engine and has improved customer queries in the field by up to 11x."
       website: https://shoumik.xyz/
+    - speaker: Bruce Spang
+      date: 10/28/2021
+      title: "Unbiased Experiments for Network Algorithms"
+      abstract: "When developing a new networking algorithm, it is established practice to run a randomized experiment, or A/B test, to evaluate its performance. In an A/B test, traffic is randomly allocated between a treatment group, which uses the new algorithm, and a control group, which uses the existing algorithm. However, because networks are congested, both treatment and control traffic compete against each other for resources in a way that biases the outcome of these tests.  This bias can have a surprisingly large effect; for example, in lab A/B tests with two widely used congestion control algorithms, the treatment appeared to deliver 150% higher throughput when used by a few flows, and 75% lower throughput when used by most flows–despite the fact that the two algorithms have identical throughput when used by all traffic.  Beyond the lab, we show that A/B tests can also be biased at scale. In an experiment run in cooperation with Netflix, estimates from A/B tests mistake the direction of change of some metrics, miss changes in other metrics, and overestimate the size of effects. We propose alternative experiment designs, previously used in online platforms, to more accurately evaluate new algorithms and allow experimenters to better understand the impact of congestion on their tests."
+      website: https://brucespang.com/
     - speaker: Pratiksha Thaker
       date: 10/21/2021
       title: "Clamor: Extending Functional Cluster Computing Frameworks with Fine-Grained Remote Memory Access"
