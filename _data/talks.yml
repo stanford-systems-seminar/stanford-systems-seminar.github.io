@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Deepak Narayanan
-      date: 11/18/2021
-      title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
-      abstract: "Resource allocation problems in many computer systems can be formulated as mathematical optimization problems. However, finding exact solutions to these problems using off-the-shelf solvers is often intractable for large problem sizes with tight SLAs, leading system designers to rely on cheap, heuristic algorithms. We observe, however, that many allocation problems are granular: they consist of a large number of clients and resources, each client requests a small fraction of the total number of resources, and clients can interchangeably use different resources. For these problems, we propose an alternative approach that reuses the original optimization problem formulation and leads to better allocations than domain-specific heuristics. Our technique, Partitioned Optimization Problems (POP), randomly splits the problem into smaller problems (with a subset of the clients and resources in the system) and coalesces the resulting sub-allocations into a global allocation for all clients. We provide theoretical and empirical evidence as to why random partitioning works well. In our experiments, POP achieves allocations within 1.5% of the optimal with orders-of-magnitude improvements in runtime compared to existing systems for cluster scheduling, traffic engineering, and load balancing."
-      website: https://cs.stanford.edu/~deepakn/
     - speaker: Max Demoulin
       date: 12/02/2021
       title: "Service Boosters: Library Operating Systems for the Datacenter"
@@ -20,6 +15,11 @@ Finally, DeDoS can identify overloaded components and dynamically scale them on 
       website: http://seojinpark.net/
 - type: Past Talks
   members:
+    - speaker: Deepak Narayanan
+      date: 11/18/2021
+      title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
+      abstract: "Resource allocation problems in many computer systems can be formulated as mathematical optimization problems. However, finding exact solutions to these problems using off-the-shelf solvers is often intractable for large problem sizes with tight SLAs, leading system designers to rely on cheap, heuristic algorithms. We observe, however, that many allocation problems are granular: they consist of a large number of clients and resources, each client requests a small fraction of the total number of resources, and clients can interchangeably use different resources. For these problems, we propose an alternative approach that reuses the original optimization problem formulation and leads to better allocations than domain-specific heuristics. Our technique, Partitioned Optimization Problems (POP), randomly splits the problem into smaller problems (with a subset of the clients and resources in the system) and coalesces the resulting sub-allocations into a global allocation for all clients. We provide theoretical and empirical evidence as to why random partitioning works well. In our experiments, POP achieves allocations within 1.5% of the optimal with orders-of-magnitude improvements in runtime compared to existing systems for cluster scheduling, traffic engineering, and load balancing."
+      website: https://cs.stanford.edu/~deepakn/
     - speaker: Irene Zhang
       biography: "Irene Zhang is a Principal Researcher at Microsoft Research.  Her
 work focuses on datacenter operating systems and distributed systems,
