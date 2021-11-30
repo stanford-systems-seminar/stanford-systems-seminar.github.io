@@ -8,7 +8,10 @@
     - speaker: Max Demoulin
       date: 12/02/2021
       title: "Service Boosters: Library Operating Systems for the Datacenter"
-      abstract: "TBA"
+      abstract: "This work aims to develop a lightweight data center execution environment exploiting application semantics to optimize tail performance for cloud services. This system, dubbed Service Boosters, is a library operating system exposing the application structure and semantics to the underlying resource management stack. Using Service Boosters, programmers can declare and annotate the structure of their request processing pipeline, while performance engineers can program advanced management strategies for the application.
+I present three components of Service Boosters, FineLame, Perséphone, and DeDoS, that exploit application awareness to provide real time anomaly detection; tail-tolerant RPC scheduling; and resource harvesting. FineLame leverages awareness of the request processing pipeline to deploy monitoring and anomaly detection probes on critical resource consumption functions. Using these probes, FineLame can detect abnormal requests in-flight as soon as they depart from the expected workload behavior, allowing operators to prevent a surge in tail latency.
+Perséphone exploits an understanding of request types to dynamically allocate resources to each type of request and forbid pathological head-of-line blocking from heavy-tailed workloads, without the need for interrupts. Perséphone is well suited for kernel-bypass, microsecond scale applications requiring low overhead scheduling.
+Finally, DeDoS can identify overloaded components and dynamically scale them on the cluster, harvesting only the resources needed to quench the overload."
       website: http://www.maxdml.com/
     - speaker: Seo Jin Park
       date: 12/09/2021
