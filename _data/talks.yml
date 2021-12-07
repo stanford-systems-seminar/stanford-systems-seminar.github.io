@@ -1,5 +1,13 @@
 - type: Upcoming Talks
   members:
+    - speaker: Seo Jin Park
+      date: 12/09/2021
+      title: "Flash Bursts: Efficient Cluster-Scale Parallelization to Accelerate Big Data Applications 1000x"
+      abstract: "The goal of my research is to build efficient large-scale parallel systems that can accelerate big data applications by 100--1000x without incurring a hefty cost. My work is motivated by two growing trends: big data and cloud computing. Today, many businesses and web services store staggering quantities of data in the cloud and lease relatively small clusters of instances to run analytics queries, train machine learning models, and more. However, the exponential data growth, combined with the slowdown of Moore's law, makes it challenging (if not impossible) to run such big data processing tasks in real-time. Most applications run big data workloads on timescales of several minutes or hours and resort to complex, application-specific optimizations to reduce the amount of data processing required for interactive queries. This design pattern hurts developer productivity and restricts the scope of applications that can use big data.  My research aims to enable interactive, cost-effective big data processing through flash bursts. Flash bursts enable an application to use a large portion of a shared cluster for short periods of time. This could allow big data applications to complete significantly faster, with a cost comparable to leasing a few instances for a longer period of time. The main challenge to flash bursts is Amdahl's law. Flash bursts launch small tasks per node that run for milliseconds at a time. With such small task granularity, previously negligible overheads (e.g., synchronization, I/O processing, cache misses, etc.) can turn into significant bottlenecks, and increasing communication overhead for coordination across many nodes can limit scaling. My research takes a two-pronged approach to tackle this challenge: building new distributed system infrastructure for flash bursts, and restructuring important applications (e.g., data analytics, DNN training) to use flash bursts efficiently. In this talk, I will focus on how I restructured distributed sorting (MilliSort) and how I removed the overheads of replication (CURP). "
+      biography: "Seo Jin Park is a PhD alumnus, previously advised by John Ousterhout. He is currently a postdoc at MIT CSAIL with Mohammad Alizadeh. His research focuses on making cluster-scale parallel systems efficient so that big data applications (e.g., DNN training, analytics) can run 100--1000x faster on the public cloud. Other areas of research are improving blockchain throughput under network bandwidth variability, removing overheads of consistent replication, and building tools for debugging tail latencies."
+      website: http://seojinpark.net/
+- type: Past Talks
+  members:
     - speaker: Max Demoulin
       date: 12/02/2021
       title: "Service Boosters: Library Operating Systems for the Datacenter"
@@ -8,13 +16,6 @@ I present three components of Service Boosters, FineLame, Perséphone, and DeDoS
 Perséphone exploits an understanding of request types to dynamically allocate resources to each type of request and forbid pathological head-of-line blocking from heavy-tailed workloads, without the need for interrupts. Perséphone is well suited for kernel-bypass, microsecond scale applications requiring low overhead scheduling.
 Finally, DeDoS can identify overloaded components and dynamically scale them on the cluster, harvesting only the resources needed to quench the overload."
       website: http://www.maxdml.com/
-    - speaker: Seo Jin Park
-      date: 12/09/2021
-      title: "Flash Bursts: Efficient Cluster-Scale Parallelization to Accelerate Big Data Applications 1000x"
-      abstract: "TBA"
-      website: http://seojinpark.net/
-- type: Past Talks
-  members:
     - speaker: Deepak Narayanan
       date: 11/18/2021
       title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
