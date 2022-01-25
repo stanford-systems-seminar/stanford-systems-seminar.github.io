@@ -1,18 +1,19 @@
 - type: Upcoming Talks
   members:
+    - speaker: Serhat Arslan
+      date: 01/27/2022
+      title: "NanoTransport: A Low-Latency, Programmable Transport Layer for NICs"
+      abstract: "Transport protocols can be implemented in NIC (Network Interface Card) hardware to increase throughput, reduce latency and free up CPU cycles. If the ideal transport protocol were known, the optimal implementation would be simple: bake it into fixed-function hardware. But transport layer protocols are still evolving, with innovative new algorithms proposed every year. A recent study proposed Tonic, a Verilog-programmable transport layer in hardware. We build on this work to propose a new programmable hardware transport layer architecture, called nanoTransport, optimized for the extremely low-latency message-based RPCs (Remote Procedure Calls) that dominate large, modern distributed data center applications. NanoTransport is programmed using the P4 language, making it easy to modify existing (or create entirely new) transport protocols in hardware. We identify common events and primitive operations, allowing for a streamlined, modular, programmable pipeline, including packetization, reassembly, timeouts and packet generation, all to be expressed by the programmer.
+We evaluate our nanoTransport prototype by programming it to run the reliable message-based transport protocols NDP and Homa, as well as a hybrid variant. Our FPGA prototype - implemented in Chisel and running on the Firesim simulator - exposes P4-programmable pipelines and is designed to run in an ASIC at 200Gb/s with each packet processed end-to-end in less than 10ns (including message reassembly)."
+      website: https://web.stanford.edu/~sarslan/
+- type: Past Talks
+  members:
     - speaker: Seo Jin Park
       date: 01/20/2022
       title: "Flash Bursts: Efficient Cluster-Scale Parallelization to Accelerate Big Data Applications 1000x"
       abstract: "The goal of my research is to build efficient large-scale parallel systems that can accelerate big data applications by 100--1000x without incurring a hefty cost. My work is motivated by two growing trends: big data and cloud computing. Today, many businesses and web services store staggering quantities of data in the cloud and lease relatively small clusters of instances to run analytics queries, train machine learning models, and more. However, the exponential data growth, combined with the slowdown of Moore's law, makes it challenging (if not impossible) to run such big data processing tasks in real-time. Most applications run big data workloads on timescales of several minutes or hours and resort to complex, application-specific optimizations to reduce the amount of data processing required for interactive queries. This design pattern hurts developer productivity and restricts the scope of applications that can use big data.  My research aims to enable interactive, cost-effective big data processing through flash bursts. Flash bursts enable an application to use a large portion of a shared cluster for short periods of time. This could allow big data applications to complete significantly faster, with a cost comparable to leasing a few instances for a longer period of time. The main challenge to flash bursts is Amdahl's law. Flash bursts launch small tasks per node that run for milliseconds at a time. With such small task granularity, previously negligible overheads (e.g., synchronization, I/O processing, cache misses, etc.) can turn into significant bottlenecks, and increasing communication overhead for coordination across many nodes can limit scaling. My research takes a two-pronged approach to tackle this challenge: building new distributed system infrastructure for flash bursts, and restructuring important applications (e.g., data analytics, DNN training) to use flash bursts efficiently. In this talk, I will focus on how I restructured distributed sorting (MilliSort) and how I removed the overheads of replication (CURP). "
       biography: "Seo Jin Park is a PhD alumnus, previously advised by John Ousterhout. He is currently a postdoc at MIT CSAIL with Mohammad Alizadeh. His research focuses on making cluster-scale parallel systems efficient so that big data applications (e.g., DNN training, analytics) can run 100--1000x faster on the public cloud. Other areas of research are improving blockchain throughput under network bandwidth variability, removing overheads of consistent replication, and building tools for debugging tail latencies."
       website: http://seojinpark.net/
-    - speaker: Serhat Arslan
-      date: 01/27/2022
-      title: "NanoTransport: A Low-Latency, Programmable Transport Layer for NICs"
-      abstract: "TBA"
-      website: https://web.stanford.edu/~sarslan/
-- type: Past Talks
-  members:
     - speaker: André Ryser
       date: 01/06/2022
       title: "D-RDMA: Bringing Zero-Copy RDMA to Database Systems"
