@@ -1,12 +1,39 @@
 - type: Upcoming Talks
   members:
+      - speaker: Sagar Karandikar
+        date: 02/10/2022
+        title: "A Hardware Accelerator for Protocol Buffers"
+        abstract: "Serialization frameworks are a fundamental component of scale-out systems, but introduce significant compute overheads. However, they are amenable to acceleration with specialized hardware. To understand the trade-offs involved in architecting such an accelerator, we present the first in-depth study of serialization framework usage at scale by profiling Protocol Buffers (“protobuf”) usage across Google’s datacenter fleet. We use this data to build HyperProtoBench, an open-source benchmark representative of key serialization-framework user services at scale. In doing so, we identify key insights that challenge prevailing assumptions about serialization framework usage.
+We use these insights to develop a novel hardware accelerator for protobufs, implemented in RTL and integrated into a RISC-V SoC. Applications can easily harness the accelerator, as it integrates with a modified version of the open-source protobuf library and is wire-compatible with standard protobufs. We have fully open-sourced our RTL, which, to the best of our knowledge, is the only such implementation currently available to the community.
+We also present a first-of-its-kind, end-to-end evaluation of our entire RTL-based system running hyperscale-derived benchmarks and microbenchmarks. We boot Linux on the system using FireSim to run these benchmarks and implement the design in a commercial 22nm FinFET process to obtain area and frequency metrics. We demonstrate an average 6.2x to 11.2x performance improvement vs. our baseline RISC-V SoC with BOOM OoO cores and despite the RISC-V SoC’s weaker uncore/supporting components, an average 3.8x improvement vs. a Xeon-based server"
+        website: https://sagark.org
+        biography: "Sagar Karandikar is a Ph.D. student at UC Berkeley and a Student Researcher at Google. His research focuses on hardware/software co-design in warehouse-scale machines. His work on FireSim, which enables high-performance scale-out FPGA-accelerated full-system simulation, was selected as an IEEE Micro Top Pick, nominated for CACM Research Highlights, and has been used in published work from over 20 companies and academic institutions and in the development of commercially-available silicon. His work on hardware acceleration for protocol buffers received an IEEE Micro Top Picks Honorable Mention and the Distinguished Artifact Award at MICRO-54."
+      - speaker: Pratiksha Thaker
+        date: 03/03/2022
+        title: "TBD"
+        abstract: "TBD"
+      - speaker: Jialin Ding
+        date: 03/10/2022
+        title: "TBD"
+        abstract: "TBD"
+        website: https://jialinding.github.io/
+      - speaker: Frank Cangialosi
+        date: 03/17/2022
+        title: "Privid: Practical, Privacy-Preserving Video Analytics Queries"
+        abstract: "TBD"
+        website: https://people.csail.mit.edu/frankc/
+      - speaker: Peter Kradt
+        title: "TBD"
+        abstract: "TBD"
+        date: 03/31/2022
+        website: http://petereliaskraft.net/
+- type: Past Talks
     - speaker: Serhat Arslan
       date: 01/27/2022
       title: "NanoTransport: A Low-Latency, Programmable Transport Layer for NICs"
       abstract: "Transport protocols can be implemented in NIC (Network Interface Card) hardware to increase throughput, reduce latency and free up CPU cycles. If the ideal transport protocol were known, the optimal implementation would be simple: bake it into fixed-function hardware. But transport layer protocols are still evolving, with innovative new algorithms proposed every year. A recent study proposed Tonic, a Verilog-programmable transport layer in hardware. We build on this work to propose a new programmable hardware transport layer architecture, called nanoTransport, optimized for the extremely low-latency message-based RPCs (Remote Procedure Calls) that dominate large, modern distributed data center applications. NanoTransport is programmed using the P4 language, making it easy to modify existing (or create entirely new) transport protocols in hardware. We identify common events and primitive operations, allowing for a streamlined, modular, programmable pipeline, including packetization, reassembly, timeouts and packet generation, all to be expressed by the programmer.
 We evaluate our nanoTransport prototype by programming it to run the reliable message-based transport protocols NDP and Homa, as well as a hybrid variant. Our FPGA prototype - implemented in Chisel and running on the Firesim simulator - exposes P4-programmable pipelines and is designed to run in an ASIC at 200Gb/s with each packet processed end-to-end in less than 10ns (including message reassembly)."
       website: https://web.stanford.edu/~sarslan/
-- type: Past Talks
   members:
     - speaker: Seo Jin Park
       date: 01/20/2022
