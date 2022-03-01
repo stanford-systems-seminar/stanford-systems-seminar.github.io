@@ -8,8 +8,8 @@
         biography: "Sagar Karandikar is a Ph.D. student at UC Berkeley and a Student Researcher at Google. His research focuses on hardware/software co-design in warehouse-scale machines. His work on FireSim, which enables high-performance scale-out FPGA-accelerated full-system simulation, was selected as an IEEE Micro Top Pick, nominated for CACM Research Highlights, and has been used in published work from over 20 companies and academic institutions and in the development of commercially-available silicon. His work on hardware acceleration for protocol buffers received an IEEE Micro Top Picks Honorable Mention and the Distinguished Artifact Award at MICRO-54."
       - speaker: Pratiksha Thaker
         date: 03/03/2022
-        title: "TBD"
-        abstract: "TBD"
+        title: "Title: Safety and Utility in Multi-Agent Congestion Control"
+        abstract: "Abstract: Real-world multi-agent systems have to safely operate in environments where unsafe decisions have real consequences. One such environment of interest is network congestion control, in which selfish agents with conflicting goals can cause a network to become unusable by causing some agents to receive zero throughput. Motivated by this problem, we consider safety conditions for a broad class of aggregative games that includes congestion control, the classic Cournot oligopoly model, and resource sharing in the commons. We use comparative statics to derive simple, practically useful conditions that guarantee that all users achieve a fixed minimum utility at equilibrium. Compared to prior work on studying properties of equilibria in network congestion control, we show that our approach allows for a more realistic class of utilities and addresses real concerns regarding safe deployment of modern network congestion control protocols. Joint work with Matei Zaharia and Tatsu Hashimoto."
       - speaker: Jialin Ding
         date: 03/10/2022
         title: "TBD"
