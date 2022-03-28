@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-      - speaker: Alexey Tumanov
-        date: 03/22/2022
-        title: "Resource Management and Scheduling for Emerging AI Applications"
-        abstract: "My current research interest is in systems support and resource management for distributed machine learning frameworks and applications. Specifically, I am currently working on distributed systems and resource management algorithms for soft-real time Machine Learning inference. This builds on award-winning (Best Student Paper, EuroSys'16) body of R&D at Carnegie Mellon modeling, designing, and developing abstractions, primitives, algorithms and systems for a general resource management framework for static and dynamic heterogeneity, hard and soft placement constraints, time-varying resource capacity guarantees, and combinatorial constraints in heterogeneous resource contexts. Earlier motivating work published in ACM SoCC'12 recently led to a Test of Time award at SoCC'21. I focus on developing algorithms and building systems that support an array of practical aspects of Machine Learning."
-        website: https://faculty.cc.gatech.edu/~atumanov/
-        biography: "I am a tenure-track Assistant Professor in the School of Computer Science at Georgia Tech since August 2019. I completed my postdoc at the University of California, Berkeley, working with Ion Stoica and collaborating closely with Joseph Gonzalez. I completed my Ph.D. at Carnegie Mellon University, advised by Gregory Ganger. At Carnegie Mellon, I was honored by the prestigious NSERC Alexander Graham Bell Canada Graduate Scholarship (NSERC CGS-D3) and partially funded by the Intel Science and Technology Centre for Cloud Computing (ISTC-CC) and the Parallel Data Lab (PDL) industry consortium."
       - speaker: Peter Kraft
         date: 03/29/2022
         title: "Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems"
@@ -16,13 +10,34 @@
         title: "TBD"
         abstract: "TBD"
         website: https://research.vmware.com/researchers/mihai-budiu
+      - speaker: Frank Cangialosi
+        date: 04/19/2022
+        title: "Privid: Practical, Privacy-Preserving Video Analytics Queries"
+        abstract: "TBD"
+        website: https://people.csail.mit.edu/frankc/
       - speaker: Lalith Suresh
         date: 04/26/2022
         title: "TBD"
         abstract: "TBD"
         website: https://research.vmware.com/researchers/lalith-suresh
+      - speaker: Daniel Bittman
+        date: 05/03/2022
+        title: "TBD"
+        abstract: "TBD"
+        website: https://users.soe.ucsc.edu/~battman/
+      - speaker: Nathan Beckmann
+        date: 05/10/2022
+        title: "TBD"
+        abstract: "TBD"
+        website: https://www.cs.cmu.edu/~beckmann/
 - type: Past Talks
   members:
+    - speaker: Alexey Tumanov
+      date: 03/22/2022
+      title: "Resource Management and Scheduling for Emerging AI Applications"
+      abstract: "My current research interest is in systems support and resource management for distributed machine learning frameworks and applications. Specifically, I am currently working on distributed systems and resource management algorithms for soft-real time Machine Learning inference. This builds on award-winning (Best Student Paper, EuroSys'16) body of R&D at Carnegie Mellon modeling, designing, and developing abstractions, primitives, algorithms and systems for a general resource management framework for static and dynamic heterogeneity, hard and soft placement constraints, time-varying resource capacity guarantees, and combinatorial constraints in heterogeneous resource contexts. Earlier motivating work published in ACM SoCC'12 recently led to a Test of Time award at SoCC'21. I focus on developing algorithms and building systems that support an array of practical aspects of Machine Learning."
+      website: https://faculty.cc.gatech.edu/~atumanov/
+      biography: "I am a tenure-track Assistant Professor in the School of Computer Science at Georgia Tech since August 2019. I completed my postdoc at the University of California, Berkeley, working with Ion Stoica and collaborating closely with Joseph Gonzalez. I completed my Ph.D. at Carnegie Mellon University, advised by Gregory Ganger. At Carnegie Mellon, I was honored by the prestigious NSERC Alexander Graham Bell Canada Graduate Scholarship (NSERC CGS-D3) and partially funded by the Intel Science and Technology Centre for Cloud Computing (ISTC-CC) and the Parallel Data Lab (PDL) industry consortium."
     - speaker: Jialin Ding
       date: 03/10/2022
       title: "Instance-Optimized Indexes and Data Layouts"
