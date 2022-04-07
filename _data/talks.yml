@@ -1,19 +1,15 @@
 - type: Upcoming Talks
   members:
-      - speaker: Peter Kraft
-        date: 03/29/2022
-        title: "Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems"
-        abstract: "We present data-parallel actors (DPA), a programming model for building distributed query serving systems. Query serving systems are an important class of applications characterized by low-latency data-parallel queries and frequent bulk data updates; they include data analytics systems like Apache Druid, full-text search engines like ElasticSearch, and time series databases like InfluxDB. They are challenging to build because they run at scale and need complex distributed functionality like data replication, fault tolerance, and update consistency. DPA makes building these systems easier by allowing developers to construct them from purely single-node components while automatically providing these critical properties. In DPA, we view a query serving system as a collection of stateful actors, each encapsulating a partition of data. DPA provides parallel operators that enable consistent, atomic, and fault-tolerant parallel updates and queries over data stored in actors. We have used DPA to build a new query serving system, a simplified data warehouse based on the single-node database MonetDB, and enhance existing ones, such as Druid, Solr, and MongoDB, adding missing user-requested features such as load balancing and elasticity. We show that DPA can distribute a system in <1K lines of code (>10× less than typical implementations in current systems) while achieving state-of-the-art performance and adding rich functionality."
-        website: http://petereliaskraft.net/
       - speaker: Mihai Budiu
         date: 04/12/2022
-        title: "TBD"
-        abstract: "TBD"
+        title: "DBSP: Databases as Signal Processors --- a model of incremental view maintenance"
+        abstract: "Incremental view maintenance has been for a long time a central problem of database theory. Many solutions have been proposed for restricted classes of database languages, such as the relational algebra, or Datalog. These techniques do not naturally generalize to richer languages. In this paper we give a general solution to this problem in 3 steps: (1) we describe a simple but expressive language called DBSP for describing computations over data streams; (2) we give a general algorithm for solving the incremental view maintenance problem for arbitrary DBSP programs, and (3) we show how to model several classes of database query languages (including relational queries, grouping and aggregation, and recursion) using DBSP. DBSP can be used to model other interesting query languages, including streaming aggregation queries, non-monotonic recursion, and queries on nested relations. As a consequence, we obtain efficient incremental view maintenance techniques for all these rich languages. DBSP is based on mathematical formalisms
+used in digital signal processing. Joint work with Leonid Ryzhyk (Vmware Research), Frank McSherry (Materialize Inc.) and Val Tannen (University of Pennsylvania)"
         website: https://research.vmware.com/researchers/mihai-budiu
       - speaker: Frank Cangialosi
         date: 04/19/2022
         title: "Privid: Practical, Privacy-Preserving Video Analytics Queries"
-        abstract: "TBD"
+        abstract: "Analytics on video recorded by cameras in public areas have the potential to fuel many exciting applications, but also pose the risk of intruding on individuals' privacy. Unfortunately, existing solutions fail to practically resolve this tension between utility and privacy, relying on perfect detection of all private information in each video frame--an elusive requirement. This paper presents: (1) a new notion of differential privacy (DP) for video analytics, (p,K,e)-event-duration privacy, which protects all private information visible for less than a particular duration, rather than relying on perfect detections of that information, and (2) a practical system called Privid that enforces duration-based privacy even with the (untrusted) analyst-provided deep neural networks that are commonplace for video analytics today. Across a variety of videos and queries, we show that Privid achieves accuracies within 79-99% of a non-private system."
         website: https://people.csail.mit.edu/frankc/
       - speaker: Lalith Suresh
         date: 04/26/2022
@@ -30,8 +26,19 @@
         title: "TBD"
         abstract: "TBD"
         website: https://www.cs.cmu.edu/~beckmann/
+    - speaker: Dave Patterson
+        date: 05/17/2022
+        title: " A Decade of Machine Learning Accelerators: Lessons Learned and Carbon Footprint"
+        abstract: "The success of deep neural networks (DNNs) from Machine Learning (ML) has inspired domain specific architectures (DSAs) for them. ML has two phases: training, which constructs accurate models, and inference, which serves those models. Google’s first generation DSA offered 50x improvement over conventional architectures for inference in 2015. Google next built the first production DSA supercomputer for the much harder problem of training. Subsequent generations greatly improved performance of both phases. We start with ten lessons learned, such as DNNs grow rapidly; workloads quickly evolve with DNN advances;  the bottleneck is memory, not floating-point units; and semiconductor technology advances unequally. 
+The rapid growth of DNNs rightfully raised concerns about their carbon footprint. The second part of the talk identifies the “4Ms” (Model, Machine, Mechanization, Map) that, if optimized, can reduce ML training energy by up to 100x and carbon emissions up to 1000x. By improving the 4Ms, ML held steady at <15% of Google’s total energy use despite it consuming ~75% of its floating point operations. Climate change is one of our most important problems, so  ML papers should include emissions explicitly to foster competition on more than just model quality. External estimates have been off 100x–100,000x, so publishing emissions also ensures accurate accounting, which helps pinpoint the biggest challenges.  With continuing focus on the 4Ms, we can realize the amazing potential of ML to positively impact many fields in a sustainable way."
+        website: https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html
 - type: Past Talks
   members:
+      - speaker: Peter Kraft
+        date: 03/29/2022
+        title: "Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems"
+        abstract: "We present data-parallel actors (DPA), a programming model for building distributed query serving systems. Query serving systems are an important class of applications characterized by low-latency data-parallel queries and frequent bulk data updates; they include data analytics systems like Apache Druid, full-text search engines like ElasticSearch, and time series databases like InfluxDB. They are challenging to build because they run at scale and need complex distributed functionality like data replication, fault tolerance, and update consistency. DPA makes building these systems easier by allowing developers to construct them from purely single-node components while automatically providing these critical properties. In DPA, we view a query serving system as a collection of stateful actors, each encapsulating a partition of data. DPA provides parallel operators that enable consistent, atomic, and fault-tolerant parallel updates and queries over data stored in actors. We have used DPA to build a new query serving system, a simplified data warehouse based on the single-node database MonetDB, and enhance existing ones, such as Druid, Solr, and MongoDB, adding missing user-requested features such as load balancing and elasticity. We show that DPA can distribute a system in <1K lines of code (>10× less than typical implementations in current systems) while achieving state-of-the-art performance and adding rich functionality."
+        website: http://petereliaskraft.net/
     - speaker: Alexey Tumanov
       date: 03/22/2022
       title: "Resource Management and Scheduling for Emerging AI Applications"
