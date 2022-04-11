@@ -2,7 +2,7 @@
   members:
       - speaker: Mihai Budiu
         date: 04/12/2022
-        title: "DBSP: Databases as Signal Processors --- a model of incremental view maintenance"
+        title: "DBSP: Databases as Signal Processors - A Model of Incremental View Maintenance"
         abstract: "Incremental view maintenance has been for a long time a central problem of database theory. Many solutions have been proposed for restricted classes of database languages, such as the relational algebra, or Datalog. These techniques do not naturally generalize to richer languages. In this paper we give a general solution to this problem in 3 steps: (1) we describe a simple but expressive language called DBSP for describing computations over data streams; (2) we give a general algorithm for solving the incremental view maintenance problem for arbitrary DBSP programs, and (3) we show how to model several classes of database query languages (including relational queries, grouping and aggregation, and recursion) using DBSP. DBSP can be used to model other interesting query languages, including streaming aggregation queries, non-monotonic recursion, and queries on nested relations. As a consequence, we obtain efficient incremental view maintenance techniques for all these rich languages. DBSP is based on mathematical formalisms
 used in digital signal processing. Joint work with Leonid Ryzhyk (Vmware Research), Frank McSherry (Materialize Inc.) and Val Tannen (University of Pennsylvania)"
         website: https://research.vmware.com/researchers/mihai-budiu
