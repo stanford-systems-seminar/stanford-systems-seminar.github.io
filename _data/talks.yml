@@ -26,7 +26,7 @@ used in digital signal processing. Joint work with Leonid Ryzhyk (Vmware Researc
         title: "TBD"
         abstract: "TBD"
         website: https://www.cs.cmu.edu/~beckmann/
-    - speaker: Dave Patterson
+      - speaker: Dave Patterson
         date: 05/17/2022
         title: " A Decade of Machine Learning Accelerators: Lessons Learned and Carbon Footprint"
         abstract: "The success of deep neural networks (DNNs) from Machine Learning (ML) has inspired domain specific architectures (DSAs) for them. ML has two phases: training, which constructs accurate models, and inference, which serves those models. Google’s first generation DSA offered 50x improvement over conventional architectures for inference in 2015. Google next built the first production DSA supercomputer for the much harder problem of training. Subsequent generations greatly improved performance of both phases. We start with ten lessons learned, such as DNNs grow rapidly; workloads quickly evolve with DNN advances;  the bottleneck is memory, not floating-point units; and semiconductor technology advances unequally. 
