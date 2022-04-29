@@ -1,14 +1,9 @@
 - type: Upcoming Talks
   members:
-      - speaker: Lalith Suresh
-        date: 04/26/2022
-        title: "Building Scalable and Flexible Cluster Managers Using Declarative Programming"
-        abstract: "Modern cluster managers routinely grapple with hard combinatorial optimization problems, such as policy-based load balancing, placement, scheduling, and configuration. Implementing ad-hoc heuristics to solve these problems is notoriously hard to do, making it challenging to evolve the system over time and add new features. In this talk, I will present Declarative Cluster Managers (DCM), a general approach for building cluster managers that makes them performant and easily extensible. With DCM, developers specify the cluster manager's behavior using a high-level declarative language like SQL and let a compiler take care of generating an efficient implementation. I will show how DCM significantly lowers the barrier to building scalable and extensible cluster manager components, in the context of some real-world systems like Kubernetes."
-        website: https://research.vmware.com/researchers/lalith-suresh
       - speaker: Daniel Bittman
         date: 05/03/2022
-        title: "TBD"
-        abstract: "TBD"
+        title: "Twizzler: an OS for Far Out Memory Hierarchies"
+        abstract: "Memory hierarchies are changing, both moving persistence closer to computation and pushing the semantics of memory to a more disaggregated setting. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to global address space of data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data in both space and time. Twizzler provides a clean-slate programming model for persistent and shared data, realizing the vision of Unix in a world of evolving memory hierarchies. "
         website: https://users.soe.ucsc.edu/~battman/
       - speaker: Nathan Beckmann
         date: 05/10/2022
@@ -23,6 +18,11 @@ The rapid growth of DNNs rightfully raised concerns about their carbon footprint
         website: https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html
 - type: Past Talks
   members:
+    - speaker: Lalith Suresh
+      date: 04/26/2022
+      title: "Building Scalable and Flexible Cluster Managers Using Declarative Programming"
+      abstract: "Modern cluster managers routinely grapple with hard combinatorial optimization problems, such as policy-based load balancing, placement, scheduling, and configuration. Implementing ad-hoc heuristics to solve these problems is notoriously hard to do, making it challenging to evolve the system over time and add new features. In this talk, I will present Declarative Cluster Managers (DCM), a general approach for building cluster managers that makes them performant and easily extensible. With DCM, developers specify the cluster manager's behavior using a high-level declarative language like SQL and let a compiler take care of generating an efficient implementation. I will show how DCM significantly lowers the barrier to building scalable and extensible cluster manager components, in the context of some real-world systems like Kubernetes."
+      website: https://research.vmware.com/researchers/lalith-suresh
     - speaker: Mihai Budiu
       date: 04/12/2022
       title: "Automatic Incremental View Maintenance for Rich Query Languages"
