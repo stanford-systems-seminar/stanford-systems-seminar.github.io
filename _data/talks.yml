@@ -1,14 +1,9 @@
 - type: Upcoming Talks
   members:
-      - speaker: Daniel Bittman
-        date: 05/03/2022
-        title: "Twizzler: an OS for Far Out Memory Hierarchies"
-        abstract: "Memory hierarchies are changing, both moving persistence closer to computation and pushing the semantics of memory to a more disaggregated setting. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to global address space of data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data in both space and time. Twizzler provides a clean-slate programming model for persistent and shared data, realizing the vision of Unix in a world of evolving memory hierarchies. "
-        website: https://users.soe.ucsc.edu/~battman/
       - speaker: Nathan Beckmann
         date: 05/10/2022
-        title: "TBD"
-        abstract: "TBD"
+        title: "Re-Thinking the Hardware-Software Interface for Data-Centric Systems"
+        abstract: "With the slowing of technology scaling, computer systems must look higher in the stack for performance and energy efficiency. Data movement is usually to blame for poor scaling, but current systems give software too few options to optimize data movement. As a result, many systems have turned to specialized solutions, often requiring custom hardware, to deal with the data movement problem. This talk will argue that the hardware-software interface is the problem, and data-centric design is the solution. We will consider three data-centric systems that optimize data movement while remaining general-purpose: (i) Polymorphic cache hierarchies allow software to modify or expand the memory interface on general-purpose hardware. (ii) Energy-minimal dataflow architectures massively reduce instruction and data movement, letting software compete with ASIC efficiency. And (iii) General-purpose flash-based caches reduce cost by an order of magnitude in the datacenter behind a simple interface."
         website: https://www.cs.cmu.edu/~beckmann/
       - speaker: Dave Patterson
         date: 05/17/2022
@@ -18,6 +13,12 @@ The rapid growth of DNNs rightfully raised concerns about their carbon footprint
         website: https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html
 - type: Past Talks
   members:
+      - speaker: Daniel Bittman
+        date: 05/03/2022
+        title: "Twizzler: an OS for Far Out Memory Hierarchies"
+        abstract: "Memory hierarchies are changing, both moving persistence closer to computation and pushing the semantics of memory to a more disaggregated setting. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to global address space of data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data in both space and time. Twizzler provides a clean-slate programming model for persistent and shared data, realizing the vision of Unix in a world of evolving memory hierarchies. "
+        website: https://users.soe.ucsc.edu/~battman/
+        biography: "Nathan Beckmann is an assistant professor at Carnegie Mellon University in the Computer Science and (by courtesy) Electrical and Computer Engineering Departments. His research focuses on general-purpose, data-centric computer architectures and systems. His awards include a Google Research Scholar Award in 2021 and the NSF CAREER Award in 2019. He graduated from MIT advised by Daniel Sanchez, receiving the George M. Sprowls Award for an outstanding PhD dissertation in computer science in 2015."
     - speaker: Lalith Suresh
       date: 04/26/2022
       title: "Building Scalable and Flexible Cluster Managers Using Declarative Programming"
