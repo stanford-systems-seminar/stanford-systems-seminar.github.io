@@ -13,12 +13,12 @@ The rapid growth of DNNs rightfully raised concerns about their carbon footprint
         website: https://www2.eecs.berkeley.edu/Faculty/Homepages/patterson.html
 - type: Past Talks
   members:
-      - speaker: Daniel Bittman
-        date: 05/03/2022
-        title: "Twizzler: an OS for Far Out Memory Hierarchies"
-        abstract: "Memory hierarchies are changing, both moving persistence closer to computation and pushing the semantics of memory to a more disaggregated setting. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to global address space of data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data in both space and time. Twizzler provides a clean-slate programming model for persistent and shared data, realizing the vision of Unix in a world of evolving memory hierarchies. "
-        website: https://users.soe.ucsc.edu/~battman/
-        biography: "Nathan Beckmann is an assistant professor at Carnegie Mellon University in the Computer Science and (by courtesy) Electrical and Computer Engineering Departments. His research focuses on general-purpose, data-centric computer architectures and systems. His awards include a Google Research Scholar Award in 2021 and the NSF CAREER Award in 2019. He graduated from MIT advised by Daniel Sanchez, receiving the George M. Sprowls Award for an outstanding PhD dissertation in computer science in 2015."
+    - speaker: Daniel Bittman
+      date: 05/03/2022
+      title: "Twizzler: an OS for Far Out Memory Hierarchies"
+      abstract: "Memory hierarchies are changing, both moving persistence closer to computation and pushing the semantics of memory to a more disaggregated setting. We present Twizzler, an operating system redesign for this near-future. Twizzler removes the kernel from the I/O path, provides programs with memory-style access to global address space of data using small (64 bit), object-relative cross-object pointers, and enables simple and efficient long-term sharing of data in both space and time. Twizzler provides a clean-slate programming model for persistent and shared data, realizing the vision of Unix in a world of evolving memory hierarchies. "
+      website: https://users.soe.ucsc.edu/~battman/
+      biography: "Nathan Beckmann is an assistant professor at Carnegie Mellon University in the Computer Science and (by courtesy) Electrical and Computer Engineering Departments. His research focuses on general-purpose, data-centric computer architectures and systems. His awards include a Google Research Scholar Award in 2021 and the NSF CAREER Award in 2019. He graduated from MIT advised by Daniel Sanchez, receiving the George M. Sprowls Award for an outstanding PhD dissertation in computer science in 2015."
     - speaker: Lalith Suresh
       date: 04/26/2022
       title: "Building Scalable and Flexible Cluster Managers Using Declarative Programming"
