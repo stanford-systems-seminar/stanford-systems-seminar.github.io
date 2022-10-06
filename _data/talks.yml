@@ -1,5 +1,15 @@
 - type: Upcoming Talks
   members:
+      - speaker: Hank Hoffman
+        date: 10/11/2022
+        title: "Controlling (ML-based) Computing Systems"
+        website: http://people.cs.uchicago.edu/~hankhoffmann/
+        abstract: "Modern computing systems must meet multiple---often conflicting---goals; e.g., high-performance and low energy consumption. The current state-of-practice involves ad hoc, heuristic solutions to such system management problems that offer no formally verifiable behavior and must be rewritten or redesigned wholesale as new computing platforms and constraints evolve.  In this talk, I will discuss my research on building self-aware computing systems that combine machine learning and control theory to handle system goals and constraints in a fundamental way, starting with rigorous mathematical models and ending with real software and hardware implementations that have formally analyzable behavior and can be re-purposed to address new problems as they emerge. These self-aware systems are distinguished by awareness of user goals and operating environment; they continuously monitor themselves and adapt their behavior and foundational models to ensure the goals are met despite the challenges of complexity (diverse hardware resources to be managed) and dynamics (unpredictable changes in input workload or resource availability). In this talk, I will describe how to build self-aware systems through a combination of control theoretic and machine learning techniques. I will then show how to apply these techniques to systems based on machine learning, including both scientific and low-power sensing systems."
+        biography: "Henry Hoffmann is an Associate Professor in the Department of Computer Science at the University of Chicago. He received the President's Aware for Early Career Scientists and Engineers (PECASE) in 2019. He was granted early tenure in 2018. He is a member of the ASPLOS Hall of Fame. He has a Test of Time Honorable Mention from FSE 2021 for his work on Loop Perforation (an early project on approximate computing).  He received a DOE Early Career Award in 2015. At Chicago he leads the Self-aware Computing group (or SEEC project) and conducts research on adaptive techniques for power, energy, accuracy, and performance management in computing systems. He also founded the UChicago CS department's EDI (equity, diversity, and inclusion) committee in 2020. 
+He completed a PhD in Electrical Engineering and Computer Science at MIT where his research on self-aware computing was named one of ten 'World Changing Ideas' by Scientific American in December 2011.  As a Masters student he worked on MIT's Raw processor, one of the first manycore processors.  Along with other members of the Raw team, he spent several years at Tilera Corporation, a startup which commercialized the Raw architecture and created one of the first manycores (Tilera was sold for $130M in 2014). His implementation of the BDTI Communications Benchmark (OFDM) on Tilera's 64-core TILE64 processor still has the highest certified performance of any programmable processor.  In 1999, he received his BS in Mathematical Sciences with highest honors and highest distinction from UNC Chapel Hill."
+
+- type: Past Talks
+  members:
     - speaker: Heiner Litz
       date: 06/07/2022
       title: "Unblocking Performance Bottlenecks in Data Center Workloads"
@@ -8,8 +18,6 @@ In my talk, I will provide a detailed characterization of datacenter application
       biography: "Heiner Litz is an Assistant Professor at the University of California, Santa Cruz working in the field of Computer Architecture and Systems. His research focuses on improving the performance, cost, and efficiency of data center systems. Heiner is the recipient of the NSF CAREER award, Intel's Outstanding Researcher award, Google's Faculty Award,
 and his work received the 2020 IEEE MICRO Top Pick award. Before joining UCSC, Heiner Litz was a researcher at Google and a postdoctoral research fellow at Stanford University with Prof. Christos Kozyrakis and David Cheriton. Dr. Litz received his Diplom and Ph.D. from the University of Mannheim, Germany, advised by Prof. Bruening."
       website: https://people.ucsc.edu/~hlitz/
-- type: Past Talks
-  members:
     - speaker: Nathan Beckmann
       date: 05/10/2022
       title: "Re-Thinking the Hardware-Software Interface for Data-Centric Systems"
