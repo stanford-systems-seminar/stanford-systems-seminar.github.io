@@ -1,13 +1,12 @@
 ---
 layout: default
-meta-description: "Stanford Systems Seminar--Held Thursdays at 11 AM PST."
+meta-description: "Stanford Systems Seminar--Held Tuesdays at 4 PM PST."
 ---
 
 The **Stanford Systems Seminar**, sponsored by [Platform Lab](https://platformlab.stanford.edu/), is an opportunity for Stanford faculty and students working in systems to present their research and invite guest speakers.
 Seminars are held in-person/hybrid on Tuesdays in the Gates Fujitsu Room (Gates 403) at 4 PM PST, with an online option on Zoom.  Food is provided.
-The seminar is organized by [Deepti Raghavan](https://deeptir.me) and [Peter Kraft](http://petereliaskraft.net).
-To receive regular updates on upcoming talks, as well as Zoom links to join them virtually, please reach out to one of us so we can add you
-to our mailing list (Stanford or Platform Lab affiliates only).  Please also reach out to us if you are interested in presenting.
+The seminar is organized by [Priya Mishra](https://priya2698.github.io/) and [Anjiang Wei](https://cs.stanford.edu/~anjiang/).
+To receive regular updates on upcoming talks, as well as Zoom links to join them virtually, please [subscribe via mailman](https://mailman.stanford.edu/mailman/listinfo/platformlab). Please also reach out to us if you are interested in presenting.
 
 {% for category in site.data.talks %}
 # {{ category.type }}
