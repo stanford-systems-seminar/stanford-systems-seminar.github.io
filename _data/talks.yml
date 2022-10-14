@@ -6,12 +6,18 @@
       website: https://web.stanford.edu/~ouster/cgi-bin/home.php
       abstract: "Although TCP is a tremendously successful transport protocol that has survived 40 years of dramatic technology changes, virtually every aspect of its design is wrong for the datacenter. This talk will discuss the problems with TCP, ranging from its use of connections and streams to its mechanisms for reliable delivery and congestion control. If we are to make significant headway against the datacenter tax we must move most datacenter traffic to a new and fundamentally different protocol. I will then discuss how the Homa transport protocol solves all of the problems of TCP and suggest a migration strategy for bringing a TCP alternative into widespread usage. Finally, I will discuss my experiences implementing Homa in the Linux kernel. I will argue that it no longer makes sense to implement network transport protocols in software. Instead, transport protocols must move to NIC hardware. This will likely require the development of a new architecture for NICs."
       biography: "John Ousterhout is the Bosack Lerner Professor of Computer Science at Stanford University. His current research focuses on new software stack layers to allow datacenter applications to take advantage of communication and storage technologies with microsecond-scale latencies. Ousterhout's prior positions include 14 years in industry, where he founded two companies (Scriptics and Electric Cloud), preceded by 14 years as Professor of Computer Science at U.C. Berkeley.  He is author of the book A Philosophy of Software Design, co-creator of the Raft consensus protocol, and creator of the Tcl scripting language and the Tk toolkit.  Ousterhout received a BS degree in Physics from Yale University and a PhD in Computer Science from Carnegie Mellon University. He is a member of the National Academy of Engineering and has received numerous awards, including the ACM Software System Award, the ACM Grace Murray Hopper Award, the National Science Foundation Presidential Young Investigator Award, and the U.C. Berkeley Distinguished Teaching Award."
-    - speaker: Thaleia Doudali
+    - speaker: Omid Mashayekhi
+      date: 10/25/2022
+      title: ""
+      website: ""
+      abstract: ""
+      biography: ""
+    - speaker: Thaleia Dimitra Doudali
       date: 11/15/2022
       title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
       website: https://thaleia-dimitradoudali.github.io/
-      abstract: ""
-      biography: ""
+      abstract: "Nowadays, computing platforms use a mix of different hardware technologies, to scale application performance, resource capacities and achieve cost effectiveness. However, this heterogeneity, along with the greater irregularity in the behavior of emerging workloads, render existing resource management approaches ineffective. In the first part of this talk, I will describe how we can use machine learning methods at the operating system-level, in order to make smarter resource management decisions and speed up application performance. In the second part of the talk, I will present how we can accelerate certain components of such systems using visualization and computer vision methods. Finally, I will conclude with my vision of coupling machine learning and computer vision at the system-level and present open questions that make this research area exciting to work on!"
+      biography: "Thaleia Dimitra Doudali is an Assistant Research Professor at the IMDEA Software Institute in Madrid, Spain. She received her PhD from the Georgia Institute of Technology (Georgia Tech) in the United States. Prior to that she earned an undergraduate diploma in Electrical and Computer Engineering at the National Technical University of Athens in Greece. Thaleia’s research lies at the intersection of Systems and Machine Learning, where she explores novel methodologies, such as machine learning and computer vision, to improve system-level resource management of emerging hardware technologies. In 2020, Thaleia was selected to attend the prestigious Rising Stars in EECS academic workshop. Aside from research, Thaleia actively strives to improve the mental health awareness in academia and foster diversity and inclusion."
 
 - type: Past Talks
   members:
