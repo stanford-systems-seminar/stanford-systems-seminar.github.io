@@ -1,12 +1,6 @@
 - type: Upcoming Talks
   members:
-    - speaker: John Ousterhout
-      date: 10/18/2022
-      title: "It's Time to Replace TCP in the Datacenter"
-      website: https://web.stanford.edu/~ouster/cgi-bin/home.php
-      abstract: "Although TCP is a tremendously successful transport protocol that has survived 40 years of dramatic technology changes, virtually every aspect of its design is wrong for the datacenter. This talk will discuss the problems with TCP, ranging from its use of connections and streams to its mechanisms for reliable delivery and congestion control. If we are to make significant headway against the datacenter tax we must move most datacenter traffic to a new and fundamentally different protocol. I will then discuss how the Homa transport protocol solves all of the problems of TCP and suggest a migration strategy for bringing a TCP alternative into widespread usage. Finally, I will discuss my experiences implementing Homa in the Linux kernel. I will argue that it no longer makes sense to implement network transport protocols in software. Instead, transport protocols must move to NIC hardware. This will likely require the development of a new architecture for NICs."
-      biography: "John Ousterhout is the Bosack Lerner Professor of Computer Science at Stanford University. His current research focuses on new software stack layers to allow datacenter applications to take advantage of communication and storage technologies with microsecond-scale latencies. Ousterhout's prior positions include 14 years in industry, where he founded two companies (Scriptics and Electric Cloud), preceded by 14 years as Professor of Computer Science at U.C. Berkeley.  He is author of the book A Philosophy of Software Design, co-creator of the Raft consensus protocol, and creator of the Tcl scripting language and the Tk toolkit.  Ousterhout received a BS degree in Physics from Yale University and a PhD in Computer Science from Carnegie Mellon University. He is a member of the National Academy of Engineering and has received numerous awards, including the ACM Software System Award, the ACM Grace Murray Hopper Award, the National Science Foundation Presidential Young Investigator Award, and the U.C. Berkeley Distinguished Teaching Award."
-    - speaker: Omid Mashayekhi
+   - speaker: Omid Mashayekhi
       date: 10/25/2022
       title: "Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
       website: https://omidm.net/
@@ -14,10 +8,10 @@
       biography: "Omid Mashayekhi is a senior software engineer at Google, developing distributed software systems for data-center and WAN networks, as a member of NetInfra team. Before that, he was a graduate student at Stanford University, where he received a Ph.D. degree in Electrical Engineering, and a Ph.D. minor degree in Computer Science, in 2017. At Stanford, Omid worked with Professor Philip Levis as a member of Stanford Information Networks Group (SING). His interests include cloud computing, distributed systems, and networking systems."
     - speaker: Klimovic Ana
       date: 11/08/2022
-      title: ""
-      website: "https://anakli.inf.ethz.ch/"
-      abstract: ""
-      biography: ""
+      title: "Scalable Input Data Processing for Resource-Efficient Machine Learning"
+      website: https://anakli.inf.ethz.ch/
+      abstract: "Processing input data plays a vital role in ML training, impacting accuracy, throughput, and cost. The input data pipeline is responsible for extracting data from storage, transforming data on-the-fly, and loading data to a training node (typically a GPU or TPU). As ML hardware accelerators continue to provide more FLOPS, feeding data at a sufficient rate to saturate accelerators is increasingly challenging. The high cost of accelerators compared to their CPU hosts makes it particularly important to ensure that they operate at high utilization. In this talk, I will discuss the characteristics of ML input data pipelines and motivate the design of a new system architecture, in which we disaggregate input data processing from model training. I will present Cachew, a fully-managed service for ML data processing, built on top of Tensorflow's data loading framework, tf.data. Cachew disaggregates and dynamically scales distributed resources for data processing to avoid input data stalls. The service also maintains a global view of data processing across jobs, which enables selectively caching preprocessed datasets to maximize training throughput and improve energy efficiency across jobs. I will conclude by discussing open research questions in the area of data storage and data processing systems for ML."
+      biography: "Ana Klimovic is an Assistant Professor in the Systems Group of the Computer Science Department at ETH Zurich. Her research interests span operating systems, computer architecture, and their intersection with machine learning. Ana's work focuses on computer system design for large-scale applications such as cloud computing services, data analytics, and machine learning. Before joining ETH in August 2020, Ana was a Research Scientist at Google Brain and completed her Ph.D. in Electrical Engineering at Stanford University."
     - speaker: Thaleia Dimitra Doudali
       date: 11/15/2022
       title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
@@ -27,6 +21,12 @@
 
 - type: Past Talks
   members:
+    - speaker: John Ousterhout
+      date: 10/18/2022
+      title: "It's Time to Replace TCP in the Datacenter"
+      website: https://web.stanford.edu/~ouster/cgi-bin/home.php
+      abstract: "Although TCP is a tremendously successful transport protocol that has survived 40 years of dramatic technology changes, virtually every aspect of its design is wrong for the datacenter. This talk will discuss the problems with TCP, ranging from its use of connections and streams to its mechanisms for reliable delivery and congestion control. If we are to make significant headway against the datacenter tax we must move most datacenter traffic to a new and fundamentally different protocol. I will then discuss how the Homa transport protocol solves all of the problems of TCP and suggest a migration strategy for bringing a TCP alternative into widespread usage. Finally, I will discuss my experiences implementing Homa in the Linux kernel. I will argue that it no longer makes sense to implement network transport protocols in software. Instead, transport protocols must move to NIC hardware. This will likely require the development of a new architecture for NICs."
+      biography: "John Ousterhout is the Bosack Lerner Professor of Computer Science at Stanford University. His current research focuses on new software stack layers to allow datacenter applications to take advantage of communication and storage technologies with microsecond-scale latencies. Ousterhout's prior positions include 14 years in industry, where he founded two companies (Scriptics and Electric Cloud), preceded by 14 years as Professor of Computer Science at U.C. Berkeley.  He is author of the book A Philosophy of Software Design, co-creator of the Raft consensus protocol, and creator of the Tcl scripting language and the Tk toolkit.  Ousterhout received a BS degree in Physics from Yale University and a PhD in Computer Science from Carnegie Mellon University. He is a member of the National Academy of Engineering and has received numerous awards, including the ACM Software System Award, the ACM Grace Murray Hopper Award, the National Science Foundation Presidential Young Investigator Award, and the U.C. Berkeley Distinguished Teaching Award."
     - speaker: Hank Hoffman
       date: 10/11/2022
       title: "Controlling (ML-based) Computing Systems"
