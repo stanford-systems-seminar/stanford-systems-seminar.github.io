@@ -1,6 +1,6 @@
 - type: Upcoming Talks
   members:
-   - speaker: Omid Mashayekhi
+    - speaker: Omid Mashayekhi
       date: 10/25/2022
       title: "Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
       website: https://omidm.net/
