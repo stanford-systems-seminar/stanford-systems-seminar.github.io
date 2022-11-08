@@ -1,6 +1,6 @@
 - type: Upcoming Talks
   members:
-    - speaker: Klimovic Ana
+    - speaker: Ana Klimovic
       date: 11/08/2022
       title: "Scalable Input Data Processing for Resource-Efficient Machine Learning"
       website: https://anakli.inf.ethz.ch/
