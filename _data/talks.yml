@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Ana Klimovic
-      date: 11/08/2022
-      title: "Scalable Input Data Processing for Resource-Efficient Machine Learning"
-      website: https://anakli.inf.ethz.ch/
-      abstract: "Processing input data plays a vital role in ML training, impacting accuracy, throughput, and cost. The input data pipeline is responsible for extracting data from storage, transforming data on-the-fly, and loading data to a training node (typically a GPU or TPU). As ML hardware accelerators continue to provide more FLOPS, feeding data at a sufficient rate to saturate accelerators is increasingly challenging. The high cost of accelerators compared to their CPU hosts makes it particularly important to ensure that they operate at high utilization. In this talk, I will discuss the characteristics of ML input data pipelines and motivate the design of a new system architecture, in which we disaggregate input data processing from model training. I will present Cachew, a fully-managed service for ML data processing, built on top of Tensorflow's data loading framework, tf.data. Cachew disaggregates and dynamically scales distributed resources for data processing to avoid input data stalls. The service also maintains a global view of data processing across jobs, which enables selectively caching preprocessed datasets to maximize training throughput and improve energy efficiency across jobs. I will conclude by discussing open research questions in the area of data storage and data processing systems for ML."
-      biography: "Ana Klimovic is an Assistant Professor in the Systems Group of the Computer Science Department at ETH Zurich. Her research interests span operating systems, computer architecture, and their intersection with machine learning. Ana's work focuses on computer system design for large-scale applications such as cloud computing services, data analytics, and machine learning. Before joining ETH in August 2020, Ana was a Research Scientist at Google Brain and completed her Ph.D. in Electrical Engineering at Stanford University."
     - speaker: Thaleia Dimitra Doudali
       date: 11/15/2022
       title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
@@ -27,6 +21,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Ana Klimovic
+      date: 11/08/2022
+      title: "Scalable Input Data Processing for Resource-Efficient Machine Learning"
+      website: https://anakli.inf.ethz.ch/
+      abstract: "Processing input data plays a vital role in ML training, impacting accuracy, throughput, and cost. The input data pipeline is responsible for extracting data from storage, transforming data on-the-fly, and loading data to a training node (typically a GPU or TPU). As ML hardware accelerators continue to provide more FLOPS, feeding data at a sufficient rate to saturate accelerators is increasingly challenging. The high cost of accelerators compared to their CPU hosts makes it particularly important to ensure that they operate at high utilization. In this talk, I will discuss the characteristics of ML input data pipelines and motivate the design of a new system architecture, in which we disaggregate input data processing from model training. I will present Cachew, a fully-managed service for ML data processing, built on top of Tensorflow's data loading framework, tf.data. Cachew disaggregates and dynamically scales distributed resources for data processing to avoid input data stalls. The service also maintains a global view of data processing across jobs, which enables selectively caching preprocessed datasets to maximize training throughput and improve energy efficiency across jobs. I will conclude by discussing open research questions in the area of data storage and data processing systems for ML."
+      biography: "Ana Klimovic is an Assistant Professor in the Systems Group of the Computer Science Department at ETH Zurich. Her research interests span operating systems, computer architecture, and their intersection with machine learning. Ana's work focuses on computer system design for large-scale applications such as cloud computing services, data analytics, and machine learning. Before joining ETH in August 2020, Ana was a Research Scientist at Google Brain and completed her Ph.D. in Electrical Engineering at Stanford University."
     - speaker: Omid Mashayekhi
       date: 10/25/2022
       title: "Jupiter Evolving: Transforming Google’s Datacenter Network via Optical Circuit Switches and Software-Defined Networking"
