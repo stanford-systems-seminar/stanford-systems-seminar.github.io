@@ -1,12 +1,6 @@
 - type: Upcoming Talks
   members:
-    - speaker: Thaleia Dimitra Doudali
-      date: 11/15/2022
-      title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
-      website: https://thaleia-dimitradoudali.github.io/
-      abstract: "Nowadays, computing platforms use a mix of different hardware technologies, to scale application performance, resource capacities and achieve cost effectiveness. However, this heterogeneity, along with the greater irregularity in the behavior of emerging workloads, render existing resource management approaches ineffective. In the first part of this talk, I will describe how we can use machine learning methods at the operating system-level, in order to make smarter resource management decisions and speed up application performance. In the second part of the talk, I will present how we can accelerate certain components of such systems using visualization and computer vision methods. Finally, I will conclude with my vision of coupling machine learning and computer vision at the system-level and present open questions that make this research area exciting to work on!"
-      biography: "Thaleia Dimitra Doudali is an Assistant Research Professor at the IMDEA Software Institute in Madrid, Spain. She received her PhD from the Georgia Institute of Technology (Georgia Tech) in the United States. Prior to that she earned an undergraduate diploma in Electrical and Computer Engineering at the National Technical University of Athens in Greece. Thaleia’s research lies at the intersection of Systems and Machine Learning, where she explores novel methodologies, such as machine learning and computer vision, to improve system-level resource management of emerging hardware technologies. In 2020, Thaleia was selected to attend the prestigious Rising Stars in EECS academic workshop. Aside from research, Thaleia actively strives to improve the mental health awareness in academia and foster diversity and inclusion."
-    - speaker: Xiangyao Yu
+   - speaker: Xiangyao Yu
       date: 11/29/2022
       title: ""
       website: https://pages.cs.wisc.edu/~yxy/
@@ -33,6 +27,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Thaleia Dimitra Doudali
+      date: 11/15/2022
+      title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
+      website: https://thaleia-dimitradoudali.github.io/
+      abstract: "Nowadays, computing platforms use a mix of different hardware technologies, to scale application performance, resource capacities and achieve cost effectiveness. However, this heterogeneity, along with the greater irregularity in the behavior of emerging workloads, render existing resource management approaches ineffective. In the first part of this talk, I will describe how we can use machine learning methods at the operating system-level, in order to make smarter resource management decisions and speed up application performance. In the second part of the talk, I will present how we can accelerate certain components of such systems using visualization and computer vision methods. Finally, I will conclude with my vision of coupling machine learning and computer vision at the system-level and present open questions that make this research area exciting to work on!"
+      biography: "Thaleia Dimitra Doudali is an Assistant Research Professor at the IMDEA Software Institute in Madrid, Spain. She received her PhD from the Georgia Institute of Technology (Georgia Tech) in the United States. Prior to that she earned an undergraduate diploma in Electrical and Computer Engineering at the National Technical University of Athens in Greece. Thaleia’s research lies at the intersection of Systems and Machine Learning, where she explores novel methodologies, such as machine learning and computer vision, to improve system-level resource management of emerging hardware technologies. In 2020, Thaleia was selected to attend the prestigious Rising Stars in EECS academic workshop. Aside from research, Thaleia actively strives to improve the mental health awareness in academia and foster diversity and inclusion."
     - speaker: Ana Klimovic
       date: 11/08/2022
       title: "Scalable Input Data Processing for Resource-Efficient Machine Learning"
