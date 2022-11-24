@@ -2,10 +2,10 @@
   members:
     - speaker: Xiangyao Yu
       date: 11/29/2022
-      title: ""
+      title: "Cloud-Native Database with Storage Disaggregation"
       website: https://pages.cs.wisc.edu/~yxy/
-      abstract: ""
-      biography: ""
+      abstract: "Modern databases are moving to the cloud for lower cost, elastic resource allocation, and high availability. Cloud-native databases adopt a unique storage-disaggregation architecture, where the computation and storage are decoupled as two separate services connected through the data center network. The new storage-disaggregation architecture demands a revisit of database system design. In this talk, I first discuss our recent research on optimizing the two-phase commit protocol, a fundamental building block in distributed transactional databases. We leverage the disaggregated storage service to reduce the protocol latency and eliminate blocking. Then, I discuss our recent work on leveraging storage-layer computation (i.e., a pushdown layer) to accelerate data analytics processing. Finally, I will discuss our on-going research and future plans on cloud-native database systems."
+      biography: "Xiangyao Yu is an Assistant Professor at the University of Wisconsin-Madison. His research interests include (1) cloud-native databases, (2) new hardware for databases, and (3) transactions and HTAP. Before joining UW-Madison, he finished postdoc and PhD at MIT and bachelor at Tsinghua University."
     - speaker: Cliff Young
       date: 12/06/2022
       title: ""
