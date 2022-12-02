@@ -1,17 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Xiangyao Yu
-      date: 11/29/2022
-      title: "Cloud-Native Database with Storage Disaggregation"
-      website: https://pages.cs.wisc.edu/~yxy/
-      abstract: "Modern databases are moving to the cloud for lower cost, elastic resource allocation, and high availability. Cloud-native databases adopt a unique storage-disaggregation architecture, where the computation and storage are decoupled as two separate services connected through the data center network. The new storage-disaggregation architecture demands a revisit of database system design. In this talk, I first discuss our recent research on optimizing the two-phase commit protocol, a fundamental building block in distributed transactional databases. We leverage the disaggregated storage service to reduce the protocol latency and eliminate blocking. Then, I discuss our recent work on leveraging storage-layer computation (i.e., a pushdown layer) to accelerate data analytics processing. Finally, I will discuss our on-going research and future plans on cloud-native database systems."
-      biography: "Xiangyao Yu is an Assistant Professor at the University of Wisconsin-Madison. His research interests include (1) cloud-native databases, (2) new hardware for databases, and (3) transactions and HTAP. Before joining UW-Madison, he finished postdoc and PhD at MIT and bachelor at Tsinghua University."
     - speaker: Cliff Young
       date: 12/06/2022
-      title: ""
+      title: "Codesign from Semiconductors to AI"
       website: https://research.google/people/105499/
-      abstract: ""
-      biography: ""
+      abstract: "We are in a new computing era of domain-specific accelerators, where Google's TPU is a visible example. Building such accelerators calls for broader codesign, not just traditional codesign at the hardware/software interface, but vertically integrated codesign that reaches up to applications and down to materials science and device physics. I'll talk about the balance between science and engineering, about how codesign works in TPUs, and I'll pose some materials challenges looking forward."
+      biography: "Cliff Young is a software engineer in Google Research, where he works on codesign for deep learning accelerators. He is one of the designers of Google’s Tensor Processing Unit (TPU) and one of the founders of the MLPerf benchmark. Previously, Cliff built special-purpose supercomputers for molecular dynamics at D. E. Shaw Research and was a Member of Technical Staff at Bell Labs. Cliff holds AB, MS, and PhD degrees in computer science from Harvard University. Cliff is a member of ACM and IEEE."
     - speaker: Trevor Gale
       date: 12/13/2022
       title: ""
@@ -27,6 +21,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Xiangyao Yu
+      date: 11/29/2022
+      title: "Cloud-Native Database with Storage Disaggregation"
+      website: https://pages.cs.wisc.edu/~yxy/
+      abstract: "Modern databases are moving to the cloud for lower cost, elastic resource allocation, and high availability. Cloud-native databases adopt a unique storage-disaggregation architecture, where the computation and storage are decoupled as two separate services connected through the data center network. The new storage-disaggregation architecture demands a revisit of database system design. In this talk, I first discuss our recent research on optimizing the two-phase commit protocol, a fundamental building block in distributed transactional databases. We leverage the disaggregated storage service to reduce the protocol latency and eliminate blocking. Then, I discuss our recent work on leveraging storage-layer computation (i.e., a pushdown layer) to accelerate data analytics processing. Finally, I will discuss our on-going research and future plans on cloud-native database systems."
+      biography: "Xiangyao Yu is an Assistant Professor at the University of Wisconsin-Madison. His research interests include (1) cloud-native databases, (2) new hardware for databases, and (3) transactions and HTAP. Before joining UW-Madison, he finished postdoc and PhD at MIT and bachelor at Tsinghua University." 
     - speaker: Thaleia Dimitra Doudali
       date: 11/15/2022
       title: "Building Smart and Fast Systems using Machine Learning and Computer Vision"
