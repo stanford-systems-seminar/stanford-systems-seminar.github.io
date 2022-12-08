@@ -1,21 +1,21 @@
 - type: Upcoming Talks
   members:
+    - speaker: Manya Ghobadi
+      date: 01/24/2023
+      title: ""
+      website: https://people.csail.mit.edu/ghobadi/
+      abstract: ""
+      biography: ""
     - speaker: Cliff Young
-      date: 12/06/2022
+      date: TBD
       title: "Codesign from Semiconductors to AI"
       website: https://research.google/people/105499/
       abstract: "We are in a new computing era of domain-specific accelerators, where Google's TPU is a visible example. Building such accelerators calls for broader codesign, not just traditional codesign at the hardware/software interface, but vertically integrated codesign that reaches up to applications and down to materials science and device physics. I'll talk about the balance between science and engineering, about how codesign works in TPUs, and I'll pose some materials challenges looking forward."
       biography: "Cliff Young is a software engineer in Google Research, where he works on codesign for deep learning accelerators. He is one of the designers of Google’s Tensor Processing Unit (TPU) and one of the founders of the MLPerf benchmark. Previously, Cliff built special-purpose supercomputers for molecular dynamics at D. E. Shaw Research and was a Member of Technical Staff at Bell Labs. Cliff holds AB, MS, and PhD degrees in computer science from Harvard University. Cliff is a member of ACM and IEEE."
     - speaker: Trevor Gale
-      date: 12/13/2022
+      date: TBD
       title: ""
       website: https://scholar.google.com/citations?user=uMzPswkAAAAJ&hl=en
-      abstract: ""
-      biography: ""
-    - speaker: Manya Ghobadi
-      date: 01/24/2023
-      title: ""
-      website: https://people.csail.mit.edu/ghobadi/
       abstract: ""
       biography: ""
 
