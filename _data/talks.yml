@@ -7,7 +7,7 @@
       abstract: ""
       biography: ""
     - speaker: Cliff Young
-      date: TBD
+      date: 01/31/2023
       title: "Codesign from Semiconductors to AI"
       website: https://research.google/people/105499/
       abstract: "We are in a new computing era of domain-specific accelerators, where Google's TPU is a visible example. Building such accelerators calls for broader codesign, not just traditional codesign at the hardware/software interface, but vertically integrated codesign that reaches up to applications and down to materials science and device physics. I'll talk about the balance between science and engineering, about how codesign works in TPUs, and I'll pose some materials challenges looking forward."
