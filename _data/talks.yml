@@ -2,10 +2,10 @@
   members:
     - speaker: Manya Ghobadi
       date: 01/24/2023
-      title: ""
+      title: "Next-Generation Optical Networks for Emerging ML Workloads"
       website: https://people.csail.mit.edu/ghobadi/
-      abstract: ""
-      biography: ""
+      abstract: "In this talk, I will explore three elements of designing next-generation machine learning systems: congestion control, network topology, and computation frequency. I will show that fair sharing, the holy grail of congestion control algorithms, is not necessarily desirable for deep neural network training clusters. Then I will introduce a new optical fabric that optimally combines network topology and parallelization strategies for machine learning training clusters. Finally, I will demonstrate the benefits of leveraging photonic computing systems for real-time, energy-efficient inference via analog computing. Pushing the frontiers of optical networks for machine learning workloads will enable us to fully harness the potential of deep neural networks and achieve improved performance and scalability."
+      biography: "Manya Ghobadi is faculty in the EECS department at MIT. Her research spans different areas in computer networks, focusing on optical reconfigurable networks, networks for machine learning, and high-performance cloud infrastructure. Her work has been recognized by the Sloan Fellowship in Computer Science, ACM SIGCOMM Rising Star award, NSF CAREER award, Optica Simmons Memorial Speakership award, best paper award at the Machine Learning Systems (MLSys) conference, as well as the best dataset and best paper awards at the ACM Internet Measurement Conference (IMC). Manya received her Ph.D. from the University of Toronto and spent a few years at Microsoft Research and Google prior to joining MIT."
     - speaker: Cliff Young
       date: 01/31/2023
       title: "Codesign from Semiconductors to AI"
