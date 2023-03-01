@@ -1,16 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Alex Ozdemir
-      date: 02/28/2023
-      title: "Programmable Cryptography: Compilers and Verification for Zero Knowledge Proofs"
-      website: https://cs.stanford.edu/~aozdemir/
-      abstract: "A cryptographic computer is a cryptosystem that takes a computation as an input. That is, a user-programmable cryptosystem. Examples: zero-knowledge proofs (ZKP), succinct proofs, multi-party computation (MPC), homomorphic encryption, functional encryption, functional commitments, etc. Today, cryptographic computer (privately) secure billions of dollars. Cryptographic computers are (philosophically/politically) exciting because they give the programmability and power of a regular computer, but can guarantee privacy/integrity properties. They're also (computationally) exciting because their semantics are rather different from traditional computers, which re-raises variations of classic questions:
-          * How can we program (or compile to) cryptographic computers?
-          * How can we verify programs written for cryptographic computers?
-          * What are the right programming interfaces to cryptographic computers?
-          * (in terms of computational semantics *and* security properties)
-In this talk, I'll survey how Zero-Knowledge Proofs (one type of cryptographic computer) are used, and I'll summarise my research on compilation, verification, and generalization for them."
-      biography: "Alex Ozdemir is a Stanford PhD student working with the applied cryptography group and the CENTer for AUtomated Reasoning (CENTAUR). His main focus is on 'cryptographic computers': cryptosystems that are configured by user-defined programs. His work includes new cryptographic computers, compilers for cryptographic computers, and tools for verifying programs that run on cryptographic computers."
+    - speaker: Joachim Matthias Neu
+      date: 03/07/2023
+      title: ""
+      website: 
+      abstract: ""
+      biography: ""
     - speaker: Trevor Gale
       date: 03/21/2023
       title: ""
@@ -32,6 +27,17 @@ In this talk, I'll survey how Zero-Knowledge Proofs (one type of cryptographic c
 
 - type: Past Talks
   members:
+    - speaker: Alex Ozdemir
+      date: 02/28/2023
+      title: "Programmable Cryptography: Compilers and Verification for Zero Knowledge Proofs"
+      website: https://cs.stanford.edu/~aozdemir/
+      abstract: "A cryptographic computer is a cryptosystem that takes a computation as an input. That is, a user-programmable cryptosystem. Examples: zero-knowledge proofs (ZKP), succinct proofs, multi-party computation (MPC), homomorphic encryption, functional encryption, functional commitments, etc. Today, cryptographic computer (privately) secure billions of dollars. Cryptographic computers are (philosophically/politically) exciting because they give the programmability and power of a regular computer, but can guarantee privacy/integrity properties. They're also (computationally) exciting because their semantics are rather different from traditional computers, which re-raises variations of classic questions:
+          * How can we program (or compile to) cryptographic computers?
+          * How can we verify programs written for cryptographic computers?
+          * What are the right programming interfaces to cryptographic computers?
+          * (in terms of computational semantics *and* security properties)
+In this talk, I'll survey how Zero-Knowledge Proofs (one type of cryptographic computer) are used, and I'll summarise my research on compilation, verification, and generalization for them."
+      biography: "Alex Ozdemir is a Stanford PhD student working with the applied cryptography group and the CENTer for AUtomated Reasoning (CENTAUR). His main focus is on 'cryptographic computers': cryptosystems that are configured by user-defined programs. His work includes new cryptographic computers, compilers for cryptographic computers, and tools for verifying programs that run on cryptographic computers."
     - speaker: Vibhaalakshmi Sivaraman
       date: 02/07/2023
       title: "Gemino: Practical and Robust Neural Compression for Video Conferencing"
