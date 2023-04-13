@@ -1,13 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Serhat Arslan
-      date: 04/11/2023
-      title: "Bolt: Sub-RTT Congestion Control for Ultra-Low Latency"
-      website: https://web.stanford.edu/~sarslan/
-      abstract: "Data center networks are inclined towards increasing line rates to 200Gbps and beyond to satisfy the performance requirements of applications such as NVMe and distributed ML. With larger Bandwidth Delay Products (BDPs), an increasing number of transfers fit within a few BDPs. These transfers are not only more performance-sensitive to congestion, but also bring more challenges to congestion control (CC) as they leave little time for CC to make the right decisions. Therefore, CC is under more pressure than ever before to achieve minimal queuing and high link utilization, leaving no room for imperfect control decisions.
-
-We identify that for CC to make quick and accurate decisions, the use of precise congestion signals and minimization of the control loop delay are vital. We address these issues by designing Bolt, an attempt to push congestion control to its theoretical limits by harnessing the power of programmable data planes. Bolt is founded on three core ideas, (i) Sub-RTT Control (SRC) reacts to congestion faster than RTT control loop delay, (ii) Proactive Ramp-up (PRU) foresees flow completions in the future to promptly occupy released bandwidth, and (iii) Supply matching (SM) explicitly matches bandwidth demand with supply to maximize utilization. Our experiments in testbed and simulations demonstrate that Bolt reduces 99th- p latency by 80% and improves 99th-p flow completion time by up to 3× compared to Swift and HPCC while maintaining near line-rate utilization even at 400Gbps."
-      biography: "Serhat is a 5th year PhD student from Stanford University. He works with Nick McKeown and Sachin Katti. He mainly studies how to extract the most effective telemetry from different type of networks to make them more controllable. Today, he is going to present his work on extremely precise congestion control for high speed data centers. Nowadays, he is working on bringing controllability to cellular networks with a systems approach. He will be in the job market next year."
     - speaker: Trevor Gale
       date:
       title: ""
@@ -29,6 +21,14 @@ We identify that for CC to make quick and accurate decisions, the use of precise
 
 - type: Past Talks
   members:
+    - speaker: Serhat Arslan
+      date: 04/11/2023
+      title: "Bolt: Sub-RTT Congestion Control for Ultra-Low Latency"
+      website: https://web.stanford.edu/~sarslan/
+      abstract: "Data center networks are inclined towards increasing line rates to 200Gbps and beyond to satisfy the performance requirements of applications such as NVMe and distributed ML. With larger Bandwidth Delay Products (BDPs), an increasing number of transfers fit within a few BDPs. These transfers are not only more performance-sensitive to congestion, but also bring more challenges to congestion control (CC) as they leave little time for CC to make the right decisions. Therefore, CC is under more pressure than ever before to achieve minimal queuing and high link utilization, leaving no room for imperfect control decisions.
+
+We identify that for CC to make quick and accurate decisions, the use of precise congestion signals and minimization of the control loop delay are vital. We address these issues by designing Bolt, an attempt to push congestion control to its theoretical limits by harnessing the power of programmable data planes. Bolt is founded on three core ideas, (i) Sub-RTT Control (SRC) reacts to congestion faster than RTT control loop delay, (ii) Proactive Ramp-up (PRU) foresees flow completions in the future to promptly occupy released bandwidth, and (iii) Supply matching (SM) explicitly matches bandwidth demand with supply to maximize utilization. Our experiments in testbed and simulations demonstrate that Bolt reduces 99th- p latency by 80% and improves 99th-p flow completion time by up to 3× compared to Swift and HPCC while maintaining near line-rate utilization even at 400Gbps."
+      biography: "Serhat is a 5th year PhD student from Stanford University. He works with Nick McKeown and Sachin Katti. He mainly studies how to extract the most effective telemetry from different type of networks to make them more controllable. Today, he is going to present his work on extremely precise congestion control for high speed data centers. Nowadays, he is working on bringing controllability to cellular networks with a systems approach. He will be in the job market next year."
     - speaker: Ali Abedi
       date: 03/14/2023
       title: "Non-Cooperative Wi-Fi Localization & its Privacy Implications"
