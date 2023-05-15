@@ -10,6 +10,12 @@ Imagine clocks can be accurately synchronized at scale and at distance without t
 
 This talk builds on Huygens---a high-accuracy, software-based network clock synchronization system.  We will provide examples of how Huygens can be used to rectify some of the defects of clockless designs and transform the unpredictable public cloud infrastructure into a high-performance, time-sensitive system.  Specifically, we will describe how to (1) convert Ethernet into a "zero-drop network," (2) provide programmable bandwidth slices without hardware support, (3) enable deterministic propagation times, (4) discover "noisy relative" VMs, and (5) provide a TrueTime-like API to enable external consistency in databases.  We conclude by mentioning a few other examples where time-sensitivity and "timeliness" play a critical role.'
       biography: 'Balaji Prabhakar is a faculty member in the Electrical Engineering and Computer Science departments and, by courtesy, in the Graduate School of Business at Stanford University. His research interests are in computer networks; notably, in Data Center Networks and Cloud Computing Platforms. His work spans network algorithms, congestion control protocols, and stochastic network theory.  He has also worked on Societal Networks, where he has developed "nudge engines" to incentivize commuters to travel in off-peak times so that congestion, fuel and pollution costs are reduced.'
+    - speaker: Haoran Xu
+      date: 06/06/2023
+      title: ""
+      website: https://sillycross.github.io/about/
+      abstract: ""
+      biography: ""
     - speaker: Adam Belay
       date: 06/12/2023
       title: ""
