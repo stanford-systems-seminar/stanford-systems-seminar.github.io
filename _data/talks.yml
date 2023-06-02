@@ -1,15 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Balaji Prabhakar
-      date: 05/16/2023
-      title: "The Role of Time in Distributed Systems and Networks"
-      website: https://web.stanford.edu/~balaji/
-      abstract: 'Distributed Systems and Packet-Switched Networks were developed in the 1970s under a "clockless design" paradigm.  This was mainly due to the difficulty of accurately synchronizing clocks over jittery packet-switched networks and it caused a bifurcation whose effects are felt to this day: widely-used "commodity" networks (such as those in public clouds) offer "best effort" service, while networks using specialized hardware and protocols offer "high-performance" or "time-sensitive" services. 
-
-Imagine clocks can be accurately synchronized at scale and at distance without the need for specialized hardware.  What implications would this have for Distributed Systems and Networking?
-
-This talk builds on Huygens---a high-accuracy, software-based network clock synchronization system.  We will provide examples of how Huygens can be used to rectify some of the defects of clockless designs and transform the unpredictable public cloud infrastructure into a high-performance, time-sensitive system.  Specifically, we will describe how to (1) convert Ethernet into a "zero-drop network," (2) provide programmable bandwidth slices without hardware support, (3) enable deterministic propagation times, (4) discover "noisy relative" VMs, and (5) provide a TrueTime-like API to enable external consistency in databases.  We conclude by mentioning a few other examples where time-sensitivity and "timeliness" play a critical role.'
-      biography: 'Balaji Prabhakar is a faculty member in the Electrical Engineering and Computer Science departments and, by courtesy, in the Graduate School of Business at Stanford University. His research interests are in computer networks; notably, in Data Center Networks and Cloud Computing Platforms. His work spans network algorithms, congestion control protocols, and stochastic network theory.  He has also worked on Societal Networks, where he has developed "nudge engines" to incentivize commuters to travel in off-peak times so that congestion, fuel and pollution costs are reduced.'
     - speaker: Haoran Xu
       date: 06/06/2023
       title: "Deegen: A Meta-compiler Approach for High Performance VMs at Low Engineering Cost"
@@ -40,13 +30,18 @@ This talk builds on Huygens---a high-accuracy, software-based network clock sync
       website: https://www.snehagoenka.com/
       abstract: "The landscape of computing has undergone a significant transformation with the death of Dennard scaling and the slowing of Moore’s law: applications now drive innovations in computer systems architecture. At the same time, the advent of high throughput, low cost sequencing technology has revolutionized genomics. The massive amount of data generated in genomics has uncovered acute compute challenges in biological inference due to limitations of software on traditional multi-core systems. To address this challenge, my research employs a hardware-software-algorithm co-design approach to significantly improve computational performance in key areas of comparative and clinical genomics. In this talk, I will present systems that accelerate pipelines in both these domains of genomics. First, I will present Darwin-WGA (FPGA/ASIC) and SegAlign (GPU) for cross-species whole genome alignment where co-design has yielded orders of magnitude increase in speed. Additionally, there are gains in accuracy while modifying the algorithm to improve the underlying hardware implementation. Next, I will talk about the ultra-rapid nanopore whole genome sequencing pipeline that can deliver a genetic diagnosis in under 8 hours, making it the fastest pipeline to date. The scalable, cloud-based distributed infrastructure overcomes system bottlenecks to enable near real-time computation and improved variant identification. This pipeline has been deployed in critical care units in Stanford hospitals and applied to 13 patients. Finally, I will share my vision for continued advancements in computer systems applied to emerging fields such as pangenomics, single cell genomics, and long read clinical sequencing."
       biography: "Sneha Goenka is a Ph.D. candidate in the Electrical Engineering Department at Stanford University where she is advised by Prof. Mark Horowitz. Her research centers on designing efficient computer systems for advancing genomic pipelines for clinical and research applications, with a focus on improving speed and cost. She is a 2023 Forbes 30 Under 30 Honoree in the Science category, 2022 NVIDIA Graduate Fellow, and 2021 Cadence Women in Technology Scholar. She has a B.Tech. and M.Tech. (Microelectronics) in Electrical Engineering from the Indian Institute of Technology, Bombay where she received the Akshay Dhoke Memorial Award for the most outstanding student in the program."
-    - speaker: No speaker
-      date: 05/23/2023, 05/30/2023
-      title: ""
-      website: ""
-      biography: ""
 - type: Past Talks
   members:
+    - speaker: Balaji Prabhakar
+      date: 05/16/2023
+      title: "The Role of Time in Distributed Systems and Networks"
+      website: https://web.stanford.edu/~balaji/
+      abstract: 'Distributed Systems and Packet-Switched Networks were developed in the 1970s under a "clockless design" paradigm.  This was mainly due to the difficulty of accurately synchronizing clocks over jittery packet-switched networks and it caused a bifurcation whose effects are felt to this day: widely-used "commodity" networks (such as those in public clouds) offer "best effort" service, while networks using specialized hardware and protocols offer "high-performance" or "time-sensitive" services. 
+
+Imagine clocks can be accurately synchronized at scale and at distance without the need for specialized hardware.  What implications would this have for Distributed Systems and Networking?
+
+This talk builds on Huygens---a high-accuracy, software-based network clock synchronization system.  We will provide examples of how Huygens can be used to rectify some of the defects of clockless designs and transform the unpredictable public cloud infrastructure into a high-performance, time-sensitive system.  Specifically, we will describe how to (1) convert Ethernet into a "zero-drop network," (2) provide programmable bandwidth slices without hardware support, (3) enable deterministic propagation times, (4) discover "noisy relative" VMs, and (5) provide a TrueTime-like API to enable external consistency in databases.  We conclude by mentioning a few other examples where time-sensitivity and "timeliness" play a critical role.'
+      biography: 'Balaji Prabhakar is a faculty member in the Electrical Engineering and Computer Science departments and, by courtesy, in the Graduate School of Business at Stanford University. His research interests are in computer networks; notably, in Data Center Networks and Cloud Computing Platforms. His work spans network algorithms, congestion control protocols, and stochastic network theory.  He has also worked on Societal Networks, where he has developed "nudge engines" to incentivize commuters to travel in off-peak times so that congestion, fuel and pollution costs are reduced.' 
     - speaker: Serhat Arslan
       date: 04/11/2023
       title: "Bolt: Sub-RTT Congestion Control for Ultra-Low Latency"
