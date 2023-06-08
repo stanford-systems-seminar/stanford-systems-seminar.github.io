@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Haoran Xu
-      date: 06/06/2023
-      title: "Deegen: A Meta-compiler Approach for High Performance VMs at Low Engineering Cost"
-      website: https://sillycross.github.io/about/
-      abstract: "Building a high-performance VM for a dynamic language has traditionally required a huge amount of time, money, and expertise. To reduce the high engineering cost, we present Deegen, a meta-compiler that generates a high-performance VM automatically from a semantical description of the bytecodes. Currently, Deegen is capable of automatically generating an optimized interpreter and baseline JIT compiler. This allows the user get a high-performance VM for their own language at an engineering cost similar to writing an interpreter. To demonstrate Deegen's capability in the real world, we implemented LuaJIT Remake (LJR), a standard-compliant VM for Lua 5.1. Across a variety of benchmarks, we demonstrated that LJR's interpreter significantly outperforms LuaJIT's interpreter, and LJR's baseline JIT generates high-quality code with a negligible compilation cost."
-      biography: "Haoran Xu is currently a Ph.D. student in Computer Science at Stanford University, advised by Fredrik Kjolstad."
     - speaker: Adam Belay
       date: 06/12/2023
       title: "Junction: Rethinking Operating Systems for Datacenters"
@@ -32,6 +26,12 @@
       biography: "Sneha Goenka is a Ph.D. candidate in the Electrical Engineering Department at Stanford University where she is advised by Prof. Mark Horowitz. Her research centers on designing efficient computer systems for advancing genomic pipelines for clinical and research applications, with a focus on improving speed and cost. She is a 2023 Forbes 30 Under 30 Honoree in the Science category, 2022 NVIDIA Graduate Fellow, and 2021 Cadence Women in Technology Scholar. She has a B.Tech. and M.Tech. (Microelectronics) in Electrical Engineering from the Indian Institute of Technology, Bombay where she received the Akshay Dhoke Memorial Award for the most outstanding student in the program."
 - type: Past Talks
   members:
+    - speaker: Haoran Xu
+      date: 06/06/2023
+      title: "Deegen: A Meta-compiler Approach for High Performance VMs at Low Engineering Cost"
+      website: https://sillycross.github.io/about/
+      abstract: "Building a high-performance VM for a dynamic language has traditionally required a huge amount of time, money, and expertise. To reduce the high engineering cost, we present Deegen, a meta-compiler that generates a high-performance VM automatically from a semantical description of the bytecodes. Currently, Deegen is capable of automatically generating an optimized interpreter and baseline JIT compiler. This allows the user get a high-performance VM for their own language at an engineering cost similar to writing an interpreter. To demonstrate Deegen's capability in the real world, we implemented LuaJIT Remake (LJR), a standard-compliant VM for Lua 5.1. Across a variety of benchmarks, we demonstrated that LJR's interpreter significantly outperforms LuaJIT's interpreter, and LJR's baseline JIT generates high-quality code with a negligible compilation cost."
+      biography: "Haoran Xu is currently a Ph.D. student in Computer Science at Stanford University, advised by Fredrik Kjolstad." 
     - speaker: Balaji Prabhakar
       date: 05/16/2023
       title: "The Role of Time in Distributed Systems and Networks"
