@@ -1,21 +1,15 @@
 - type: Upcoming Talks
   members:
-    - speaker: Adam Belay
-      date: 06/12/2023
-      title: "Junction: Rethinking Operating Systems for Datacenters"
-      website: http://www.abelay.me/
-      abstract: "In this talk, I will present Junction, a new operating system for the next generation of datacenters. Today’s datacenter applications are outgrowing the capabilities of existing operating systems. For example, they struggle to take advantage of recent improvements in datacenter networks, and they suffer from poor performance when other applications share a machine. At the same time, hardware is evolving to support more direct execution, or the ability to access once-privileged hardware features without going through the kernel. I will discuss our effort to combine the latest hardware support for direct execution with a new kernel design that focuses on fine-grained, microsecond-scale sharing of resources to deliver superior performance, security, and utilization. I will conclude with an example of how these improvements can enable a new programming model in the cloud."
-      biography: "Adam Belay is an Associate Professor of Computer Science at the Massachusetts Institute of Technology, where he works on operating systems, runtime systems, and distributed systems. During his Ph.D. at Stanford, he developed Dune, a system that safely exposes privileged CPU instructions to userspace; and IX, a dataplane operating system that significantly accelerates I/O performance. Dr. Belay’s current research interests lie in developing systems that cut across hardware and software layers to increase datacenter efficiency and performance. He is a member of the Parallel and Distributed Operating Systems Group, and a recipient of a Google Faculty Award, a Facebook Research Award, and the Stanford Graduate Fellowship."
-    - speaker: Trevor Gale
-      date:
-      title: ""
-      website: https://scholar.google.com/citations?user=uMzPswkAAAAJ&hl=en
-      abstract: ""
-      biography: ""
     - speaker: Volker Markl
       date: 2pm Gates415 06/26/2023
       title: ""
       website: https://www.tu.berlin/en/dima/about-us/prof-dr-volker-markl
+      abstract: ""
+      biography: "" 
+    - speaker: Trevor Gale
+      date:
+      title: ""
+      website: https://scholar.google.com/citations?user=uMzPswkAAAAJ&hl=en
       abstract: ""
       biography: ""
     - speaker: Sneha Goenka
@@ -26,6 +20,12 @@
       biography: "Sneha Goenka is a Ph.D. candidate in the Electrical Engineering Department at Stanford University where she is advised by Prof. Mark Horowitz. Her research centers on designing efficient computer systems for advancing genomic pipelines for clinical and research applications, with a focus on improving speed and cost. She is a 2023 Forbes 30 Under 30 Honoree in the Science category, 2022 NVIDIA Graduate Fellow, and 2021 Cadence Women in Technology Scholar. She has a B.Tech. and M.Tech. (Microelectronics) in Electrical Engineering from the Indian Institute of Technology, Bombay where she received the Akshay Dhoke Memorial Award for the most outstanding student in the program."
 - type: Past Talks
   members:
+    - speaker: Adam Belay
+      date: 06/12/2023
+      title: "Junction: Rethinking Operating Systems for Datacenters"
+      website: http://www.abelay.me/
+      abstract: "In this talk, I will present Junction, a new operating system for the next generation of datacenters. Today’s datacenter applications are outgrowing the capabilities of existing operating systems. For example, they struggle to take advantage of recent improvements in datacenter networks, and they suffer from poor performance when other applications share a machine. At the same time, hardware is evolving to support more direct execution, or the ability to access once-privileged hardware features without going through the kernel. I will discuss our effort to combine the latest hardware support for direct execution with a new kernel design that focuses on fine-grained, microsecond-scale sharing of resources to deliver superior performance, security, and utilization. I will conclude with an example of how these improvements can enable a new programming model in the cloud."
+      biography: "Adam Belay is an Associate Professor of Computer Science at the Massachusetts Institute of Technology, where he works on operating systems, runtime systems, and distributed systems. During his Ph.D. at Stanford, he developed Dune, a system that safely exposes privileged CPU instructions to userspace; and IX, a dataplane operating system that significantly accelerates I/O performance. Dr. Belay’s current research interests lie in developing systems that cut across hardware and software layers to increase datacenter efficiency and performance. He is a member of the Parallel and Distributed Operating Systems Group, and a recipient of a Google Faculty Award, a Facebook Research Award, and the Stanford Graduate Fellowship." 
     - speaker: Haoran Xu
       date: 06/06/2023
       title: "Deegen: A Meta-compiler Approach for High Performance VMs at Low Engineering Cost"
