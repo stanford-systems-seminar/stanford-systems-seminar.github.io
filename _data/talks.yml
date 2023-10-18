@@ -12,10 +12,10 @@ Before joining MIT, he was a visiting researcher at Meta (Facebook) with Dr. Yin
 His awards include the Best Paper Award from OECC conference in 2022, Zijing-Scholar Fellowship from Tsinghua University in 2019, the 1st Place Best Poster Award (1 out of 600+ posters) on IEEE CLEO-PR/OECC/PGC conference from IEEE Photonics Society in 2017, the Tang Lixin Scholarship from Tsinghua University in 2016."
     - speaker: Shangdi Yu
       date: 11/7/2023
-      title: ""
-      website:
-      abstract: ""
-      biography: ""
+      title: "Framework for Parallel Hierarchical Agglomerative Clustering"
+      website: https://yushangdi.github.io/
+      abstract: "We study the hierarchical clustering problem, where the goal is to produce a dendrogram that represents clusters at varying scales of a data set. We propose the ParChain framework for designing parallel hierarchical agglomerative clustering (HAC) algorithms, and using the framework we obtain novel parallel algorithms for the complete linkage, average linkage, and Ward's linkage criteria. Compared to most previous parallel HAC algorithms, which require quadratic memory, our new algorithms require only linear memory, and are scalable to large data sets. ParChain is based on our parallelization of the nearest-neighbor chain algorithm, and enables multiple clusters to be merged on every round. We introduce two key optimizations that are critical for efficiency: a range query optimization that reduces the number of distance computations required when finding nearest neighbors of clusters, and a caching optimization that stores a subset of previously computed distances, which are likely to be reused. Experimentally, we show that our highly-optimized implementations using 48 cores with two-way hyper-threading achieve 5.8--110.1x speedup over state-of-the-art parallel HAC algorithms and achieve 13.75--54.23x self-relative speedup. Compared to state-of-the-art algorithms, our algorithms require up to 237.3x less space. Our algorithms are able to scale to data set sizes with tens of millions of points, which previous algorithms are not able to handle."
+      biography: "Shangdi is a PhD student at MIT Department of Electrical Engineering and Computer Science, advised by professor Julian Shun. Her research focuses on parallel algorithms for graph and metric data clustering. Shangdi received her BSc in Computer Science and Operations Research from Cornell University and MSc in Computer Science from MIT."
     - speaker: Trevor Gale
       date:
       title: ""
